@@ -1,0 +1,101 @@
+
+{
+    "menu": {
+        "inicio": "Home",
+        "cursos": "Courses",
+        "nosotros": "About us",
+        "accesibilidad": "Accessibility",
+        "contacto": "Contact",
+        "navegacionPrincipal": "Main navigation"
+    },
+    "inicio": {
+        "subtitulo": "EDUCATION FOR EVERYONE",
+        "titulo": "Learning should have no barriers.",
+        "descripcion": "Discover new digital skills through simple courses and educational resources designed to help everyone learn.",
+        "boton": "Explore courses",
+        "imagenAlt": "Students using digital tools to learn",
+        "ofrecemos": "WHAT DO WE OFFER?",
+        "seccionTitulo": "Learn at your own pace",
+        "seccionDescripcion": "Find educational resources designed to make learning easier.",
+        "beneficio1Titulo": "Simple content",
+        "beneficio1Descripcion": "Lessons explained in a clear and understandable way.",
+        "beneficio2Titulo": "Inclusive education",
+        "beneficio2Descripcion": "An experience that considers different needs.",
+        "beneficio3Titulo": "Digital learning",
+        "beneficio3Descripcion": "Develop useful skills for your daily life."
+    },
+    "cursos": {
+        "subtitulo": "LEARN AT YOUR OWN PACE",
+        "titulo": "Our courses",
+        "descripcion": "Explore our courses and develop new digital skills from scratch.",
+        "curso1Titulo": "Basic computing",
+        "curso1Descripcion": "Learn how to use a computer, operate the keyboard and organize files.",
+        "curso2Titulo": "Internet usage",
+        "curso2Descripcion": "Discover how to browse, search for information and use different websites.",
+        "curso3Titulo": "Digital tools",
+        "curso3Descripcion": "Learn how to use email and other digital tools.",
+        "curso4Titulo": "Digital security",
+        "curso4Descripcion": "Learn how to protect your personal data and browse safely.",
+        "consultar": "Ask about this course"
+    },
+    "nosotros": {
+        "subtitulo": "GET TO KNOW OUR PLATFORM",
+        "titulo": "Who are we?",
+        "descripcion": "We believe that everyone deserves opportunities to learn.",
+        "historiaTitulo": "Our story",
+        "historiaDescripcion": "Aprende sin Barreras was created with the idea of making digital education more accessible. We want to provide a space where people can gain technological knowledge through simple and accessible content.",
+        "misionVisionTitulo": "Our mission and vision",
+        "misionTitulo": "Mission",
+        "misionDescripcion": "Make digital skills easier to learn through accessible and inclusive educational resources.",
+        "visionTitulo": "Vision",
+        "visionDescripcion": "To be a digital educational space where everyone can learn without barriers.",
+        "compromisoTitulo": "Commitment",
+        "compromisoDescripcion": "Promote equal opportunities and access to information."
+    },
+    "accesibilidad": {
+        "subtitulo": "INCLUSIVE EDUCATION",
+        "titulo": "Accessibility for everyone",
+        "descripcion": "Our goal is to make it possible for anyone to browse and learn on our platform.",
+        "seccionTitulo": "How do we make learning easier?",
+        "seccionDescripcion": "We will implement features that help people with different needs use the website.",
+        "perceptibleTitulo": "Perceivable content",
+        "perceptibleDescripcion": "We will use alternative text, captions, appropriate contrast and content that can be understood visually and auditorily.",
+        "operableTitulo": "Operable navigation",
+        "operableDescripcion": "We will allow users to navigate through the pages using the keyboard and keep the focus visible.",
+        "comprensibleTitulo": "Understandable content",
+        "comprensibleDescripcion": "We will provide clear instructions, simple text and easy-to-use forms.",
+        "robustoTitulo": "Robust content",
+        "robustoDescripcion": "We will organize the HTML correctly to make it easier for browsers and assistive technologies to interpret.",
+        "compromisoTitulo": "Our commitment",
+        "compromisoDescripcion": "We will continuously work to improve the website's accessibility using the WCAG 2.1 guidelines as a reference."
+    },
+    "contacto": {
+        "subtitulo": "WE ARE HERE TO HELP",
+        "titulo": "Contact us",
+        "descripcion": "If you have any questions or suggestions, you can get in touch with us.",
+        "nombre": "Full name",
+        "correo": "Email address",
+        "asunto": "Subject",
+        "mensaje": "Write your message",
+        "boton": "Send message"
+    },
+    "footer": {
+        "titulo": "Aprende sin Barreras",
+        "descripcion": "We are an educational platform that promotes accessible and inclusive digital learning. We want everyone to have the opportunity to learn.",
+        "navegacion": "Navigation",
+        "areas": "Learning areas",
+        "computacion": "Basic computing",
+        "internet": "Internet usage",
+        "herramientas": "Digital tools",
+        "seguridad": "Digital security",
+        "informacion": "Information",
+        "mision": "Our mission",
+        "compromiso": "Accessibility commitment",
+        "consulta": "Send an inquiry",
+        "derechos": "© 2026 Aprende sin Barreras. All rights reserved.",
+        "frase": "Education is everyone's right."
+    },
+    "general": {
+        "saltarContenido": "Skip to main content"
+    }
+}

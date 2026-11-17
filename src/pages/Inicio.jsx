@@ -30,7 +30,7 @@ export default function Inicio() {
 
                     <div className="portada-imagen">
                         <img
-                            src="/MEDIA/IMG/portada.jpg"
+                            src="../public/MEDIA/IMG/banner.jpg"
                             alt="Estudiantes utilizando herramientas digitales para aprender"
                         />
                     </div>

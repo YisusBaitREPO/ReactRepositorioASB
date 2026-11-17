@@ -1,6 +1,8 @@
 import { NavLink } from "react-router-dom";
+import { useIdioma } from "../context/IdiomaContext";
 export default function Header() {
 
+    const { textos } = useIdioma();
     return (
 
         <header className="encabezado">
@@ -22,23 +24,23 @@ export default function Header() {
                     <ul className="menu">
 
                         <li>
-                            <NavLink to="/">Inicio</NavLink>
+                            <NavLink to="/">{textos.menu.inicio}</NavLink>
                         </li>
 
                         <li>
-                            <NavLink to="/cursos">Cursos</NavLink>
+                            <NavLink to="/cursos">{textos.menu.cursos}</NavLink>
                         </li>
 
                         <li>
-                            <NavLink to="/nosotros">Nosotros</NavLink>
+                            <NavLink to="/nosotros">{textos.menu.nosotros}</NavLink>
                         </li>
 
                         <li>
-                            <NavLink to="/accesibilidad">Accesibilidad</NavLink>
+                            <NavLink to="/accesibilidad">{textos.menu.accesibilidad}</NavLink>
                         </li>
 
                         <li>
-                            <NavLink to="/contacto">Contacto</NavLink>
+                            <NavLink to="/contacto">{textos.menu.contacto}</NavLink>
                         </li>
 
                     </ul>

@@ -1,0 +1,102 @@
+
+{
+    "menu": {
+        "inicio": "Inicio",
+        "cursos": "Cursos",
+        "nosotros": "Nosotros",
+        "accesibilidad": "Accesibilidad",
+        "contacto": "Contacto",
+        "navegacionPrincipal": "Navegación principal"
+    },
+    "inicio": {
+        "subtitulo": "EDUCACIÓN PARA TODOS",
+        "titulo": "Aprender no debería tener barreras.",
+        "descripcion": "Descubre nuevas habilidades digitales mediante cursos sencillos y recursos educativos diseñados para que todas las personas puedan aprender.",
+        "boton": "Explorar cursos",
+        "imagenAlt": "Estudiantes utilizando herramientas digitales para aprender",
+        "ofrecemos": "¿QUÉ OFRECEMOS?",
+        "seccionTitulo": "Aprende a tu propio ritmo",
+        "seccionDescripcion": "Encuentra recursos educativos pensados para facilitar tu aprendizaje.",
+        "beneficio1Titulo": "Contenido sencillo",
+        "beneficio1Descripcion": "Lecciones explicadas de manera clara y comprensible.",
+        "beneficio2Titulo": "Educación inclusiva",
+        "beneficio2Descripcion": "Una experiencia que considera diferentes necesidades.",
+        "beneficio3Titulo": "Aprendizaje digital",
+        "beneficio3Descripcion": "Desarrolla habilidades útiles para tu vida diaria."
+    },
+    "cursos": {
+        "subtitulo": "APRENDE A TU RITMO",
+        "titulo": "Nuestros cursos",
+        "descripcion": "Explora nuestros cursos y desarrolla nuevas habilidades digitales desde cero.",
+        "curso1Titulo": "Computación básica",
+        "curso1Descripcion": "Aprende a utilizar una computadora, manejar el teclado y organizar archivos.",
+        "curso2Titulo": "Uso de Internet",
+        "curso2Descripcion": "Descubre cómo navegar, buscar información y utilizar diferentes páginas web.",
+        "curso3Titulo": "Herramientas digitales",
+        "curso3Descripcion": "Aprende a utilizar el correo electrónico y otras herramientas digitales.",
+        "curso4Titulo": "Seguridad digital",
+        "curso4Descripcion": "Conoce cómo proteger tus datos personales y navegar de manera segura.",
+        "consultar": "Consultar sobre este curso"
+    },
+    "nosotros": {
+        "subtitulo": "CONOCE NUESTRA PLATAFORMA",
+        "titulo": "¿Quiénes somos?",
+        "descripcion": "Creemos que todas las personas merecen tener oportunidades para aprender.",
+        "historiaTitulo": "Nuestra historia",
+        "historiaDescripcion": "Aprende sin Barreras nace con la idea de facilitar el acceso a la educación digital. Queremos ofrecer un espacio donde las personas puedan adquirir conocimientos tecnológicos mediante contenidos sencillos y accesibles.",
+        "misionVisionTitulo": "Nuestra misión y visión",
+        "misionTitulo": "Misión",
+        "misionDescripcion": "Facilitar el aprendizaje de habilidades digitales mediante recursos educativos accesibles e inclusivos.",
+        "visionTitulo": "Visión",
+        "visionDescripcion": "Ser un espacio educativo digital donde todas las personas puedan aprender sin barreras.",
+        "compromisoTitulo": "Compromiso",
+        "compromisoDescripcion": "Promover la igualdad de oportunidades y el acceso a la información."
+    },
+    "accesibilidad": {
+        "subtitulo": "EDUCACIÓN INCLUSIVA",
+        "titulo": "Accesibilidad para todos",
+        "descripcion": "Nuestro objetivo es que cualquier persona pueda navegar y aprender en nuestra plataforma.",
+        "seccionTitulo": "¿Cómo facilitamos el aprendizaje?",
+        "seccionDescripcion": "Aplicaremos características que ayuden a diferentes personas a utilizar el portal.",
+        "perceptibleTitulo": "Contenido perceptible",
+        "perceptibleDescripcion": "Utilizaremos textos alternativos, subtítulos, contrastes adecuados y contenido comprensible visual y auditivamente.",
+        "operableTitulo": "Navegación operable",
+        "operableDescripcion": "Permitiremos recorrer las páginas mediante el teclado y mantendremos visible el foco.",
+        "comprensibleTitulo": "Contenido comprensible",
+        "comprensibleDescripcion": "Presentaremos instrucciones claras, textos sencillos y formularios fáciles de usar.",
+        "robustoTitulo": "Contenido robusto",
+        "robustoDescripcion": "Organizaremos el HTML correctamente para facilitar su interpretación por navegadores y tecnologías asistivas.",
+        "compromisoTitulo": "Nuestro compromiso",
+        "compromisoDescripcion": "Trabajaremos para mejorar continuamente la accesibilidad del portal tomando como referencia las pautas WCAG 2.1."
+    },
+    "contacto": {
+        "subtitulo": "ESTAMOS PARA AYUDARTE",
+        "titulo": "Contáctanos",
+        "descripcion": "Si tienes alguna consulta o sugerencia, puedes comunicarte con nosotros.",
+        "nombre": "Nombre completo",
+        "correo": "Correo electrónico",
+        "asunto": "Asunto",
+        "mensaje": "Escribe tu mensaje",
+        "boton": "Enviar mensaje"
+    },
+    "footer": {
+        "titulo": "Aprende sin Barreras",
+        "descripcion": "Somos un portal educativo que promueve el aprendizaje digital accesible e inclusivo. Queremos que todas las personas tengan la oportunidad de aprender.",
+        "navegacion": "Navegación",
+        "areas": "Áreas de aprendizaje",
+        "computacion": "Computación básica",
+        "internet": "Uso de Internet",
+        "herramientas": "Herramientas digitales",
+        "seguridad": "Seguridad digital",
+        "informacion": "Información",
+        "mision": "Nuestra misión",
+        "compromiso": "Compromiso accesible",
+        "consulta": "Enviar una consulta",
+        "derechos": "© 2026 Aprende sin Barreras. Todos los derechos reservados.",
+        "frase": "La educación es un derecho de todos."
+    },
+    "general": {
+        "saltarContenido": "Saltar al contenido principal"
+    }
+}
+
