@@ -1,5 +1,27 @@
 
+import { useIdioma } from "../context/IdiomaContext";
+
 export default function Accesibilidad() {
+    const { idioma, textos } = useIdioma();
+
+    const region = idioma === "es" ? "es-PE" : "en-US";
+
+    const fecha = new Intl.DateTimeFormat(region, {
+        dateStyle: "long"
+    }).format(new Date());
+
+    const hora = new Intl.DateTimeFormat(region, {
+        hour: "numeric",
+        minute: "2-digit"
+    }).format(new Date());
+
+    const numero = new Intl.NumberFormat(region).format(1234567.89);
+
+    const moneda = new Intl.NumberFormat(region, {
+        style: "currency",
+        currency: idioma === "es" ? "PEN" : "USD"
+    }).format(1250.50);
+
     return (
         <>
             {/* PORTADA */}
@@ -7,14 +29,13 @@ export default function Accesibilidad() {
                 <div className="contenedor">
 
                     <p className="subtitulo">
-                        EDUCACIÓN INCLUSIVA
+                        {textos.accesibilidad.subtitulo}
                     </p>
 
-                    <h1>Accesibilidad para todos</h1>
+                    <h1>{textos.accesibilidad.titulo}</h1>
 
                     <p>
-                        Nuestro objetivo es que cualquier persona
-                        pueda navegar y aprender en nuestra plataforma.
+                        {textos.accesibilidad.descripcion}
                     </p>
 
                 </div>
@@ -25,52 +46,84 @@ export default function Accesibilidad() {
                 <div className="contenedor">
 
                     <div className="titulo-seccion">
-                        <h2>¿Cómo facilitamos el aprendizaje?</h2>
+                        <h2>{textos.accesibilidad.seccionTitulo}</h2>
 
                         <p>
-                            Aplicaremos características que ayuden
-                            a diferentes personas a utilizar el portal.
+                            {textos.accesibilidad.seccionDescripcion}
                         </p>
                     </div>
 
                     <div className="accesibilidad-lista">
 
                         <article className="accesibilidad-item">
-                            <h2>Contenido perceptible</h2>
+                            <h2>{textos.accesibilidad.perceptibleTitulo}</h2>
 
                             <p>
-                                Utilizaremos textos alternativos, subtítulos,
-                                contrastes adecuados y contenido comprensible
-                                visual y auditivamente.
+                                {textos.accesibilidad.perceptibleDescripcion}
                             </p>
                         </article>
 
                         <article className="accesibilidad-item">
-                            <h2>Navegación operable</h2>
+                            <h2>{textos.accesibilidad.operableTitulo}</h2>
 
                             <p>
-                                Permitiremos recorrer las páginas mediante
-                                el teclado y mantendremos visible el foco.
+                                {textos.accesibilidad.operableDescripcion}
                             </p>
                         </article>
 
                         <article className="accesibilidad-item">
-                            <h2>Contenido comprensible</h2>
+                            <h2>{textos.accesibilidad.comprensibleTitulo}</h2>
 
                             <p>
-                                Presentaremos instrucciones claras,
-                                textos sencillos y formularios fáciles de usar.
+                                {textos.accesibilidad.comprensibleDescripcion}
                             </p>
                         </article>
 
                         <article className="accesibilidad-item">
-                            <h2>Contenido robusto</h2>
+                            <h2>{textos.accesibilidad.robustoTitulo}</h2>
 
                             <p>
-                                Organizaremos el HTML correctamente para
-                                facilitar su interpretación por navegadores
-                                y tecnologías asistivas.
+                                {textos.accesibilidad.robustoDescripcion}
                             </p>
+                        </article>
+
+                    </div>
+
+                </div>
+            </section>
+            
+            {/* FORMATOS REGIONALES */}
+            <section className="seccion">
+                <div className="contenedor">
+
+                    <div className="titulo-seccion">
+                        <h2>{textos.accesibilidad.formatosTitulo}</h2>
+
+                        <p>
+                            {textos.accesibilidad.formatosDescripcion}
+                        </p>
+                    </div>
+
+                    <div className="formatos-grid">
+
+                        <article className="formato-item">
+                            <h3>{textos.accesibilidad.fecha}</h3>
+                            <p>{fecha}</p>
+                        </article>
+
+                        <article className="formato-item">
+                            <h3>{textos.accesibilidad.hora}</h3>
+                            <p>{hora}</p>
+                        </article>
+
+                        <article className="formato-item">
+                            <h3>{textos.accesibilidad.numero}</h3>
+                            <p>{numero}</p>
+                        </article>
+
+                        <article className="formato-item">
+                            <h3>{textos.accesibilidad.moneda}</h3>
+                            <p>{moneda}</p>
                         </article>
 
                     </div>
@@ -83,12 +136,10 @@ export default function Accesibilidad() {
                 <div className="contenedor">
 
                     <div className="titulo-seccion">
-                        <h2>Nuestro compromiso</h2>
+                        <h2>{textos.accesibilidad.compromisoTitulo}</h2>
 
                         <p>
-                            Trabajaremos para mejorar continuamente
-                            la accesibilidad del portal tomando como
-                            referencia las pautas WCAG 2.1.
+                            {textos.accesibilidad.compromisoDescripcion}
                         </p>
                     </div>
 
@@ -97,4 +148,3 @@ export default function Accesibilidad() {
         </>
     );
 }
-

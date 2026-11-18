@@ -1,9 +1,11 @@
+
 import { NavLink } from "react-router-dom";
+import { useIdioma } from "../context/IdiomaContext";
 
 export default function Footer() {
+    const { textos } = useIdioma();
 
     return (
-
         <footer className="pie-pagina">
 
             <div className="contenedor footer-contenido">
@@ -11,29 +13,29 @@ export default function Footer() {
                 {/* INFORMACIÓN DEL PORTAL */}
                 <section className="footer-columna">
 
-                    <h2>Aprende sin Barreras</h2>
+                    <h2>{textos.footer.titulo}</h2>
 
                     <p>
-                        Somos un portal educativo que promueve
-                        el aprendizaje digital accesible e inclusivo.
-                        Queremos que todas las personas tengan
-                        la oportunidad de aprender.
+                        {textos.footer.descripcion}
                     </p>
 
                 </section>
 
 
                 {/* NAVEGACIÓN */}
-                <nav className="footer-columna" aria-label="Enlaces del pie de página">
+                <nav
+                    className="footer-columna"
+                    aria-label={textos.menu.navegacionPrincipal}
+                >
 
-                    <h2>Navegación</h2>
+                    <h2>{textos.footer.navegacion}</h2>
 
                     <ul>
-                        <li><NavLink to="/">Inicio</NavLink></li>
-                        <li><NavLink to="/cursos">Nuestros cursos</NavLink></li>
-                        <li><NavLink to="/nosotros">Nosotros</NavLink></li>
-                        <li><NavLink to="/accesibilidad">Accesibilidad</NavLink></li>
-                        <li><NavLink to="/contacto">Contacto</NavLink></li>
+                        <li><NavLink to="/">{textos.menu.inicio}</NavLink></li>
+                        <li><NavLink to="/cursos">{textos.menu.cursos}</NavLink></li>
+                        <li><NavLink to="/nosotros">{textos.menu.nosotros}</NavLink></li>
+                        <li><NavLink to="/accesibilidad">{textos.menu.accesibilidad}</NavLink></li>
+                        <li><NavLink to="/contacto">{textos.menu.contacto}</NavLink></li>
                     </ul>
 
                 </nav>
@@ -42,13 +44,13 @@ export default function Footer() {
                 {/* RECURSOS EDUCATIVOS */}
                 <section className="footer-columna">
 
-                    <h2>Áreas de aprendizaje</h2>
+                    <h2>{textos.footer.areas}</h2>
 
                     <ul>
-                        <li><NavLink to="/cursos">Computación básica</NavLink></li>
-                        <li><NavLink to="/cursos">Uso de Internet</NavLink></li>
-                        <li><NavLink to="/cursos">Herramientas digitales</NavLink></li>
-                        <li><NavLink to="/cursos">Seguridad digital</NavLink></li>
+                        <li><NavLink to="/cursos">{textos.footer.computacion}</NavLink></li>
+                        <li><NavLink to="/cursos">{textos.footer.internet}</NavLink></li>
+                        <li><NavLink to="/cursos">{textos.footer.herramientas}</NavLink></li>
+                        <li><NavLink to="/cursos">{textos.footer.seguridad}</NavLink></li>
                     </ul>
 
                 </section>
@@ -57,12 +59,12 @@ export default function Footer() {
                 {/* INFORMACIÓN ADICIONAL */}
                 <section className="footer-columna">
 
-                    <h2>Información</h2>
+                    <h2>{textos.footer.informacion}</h2>
 
                     <ul>
-                        <li><NavLink to="/nosotros">Nuestra misión</NavLink></li>
-                        <li><NavLink to="/accesibilidad">Compromiso accesible</NavLink></li>
-                        <li><NavLink to="/contacto">Enviar una consulta</NavLink></li>
+                        <li><NavLink to="/nosotros">{textos.footer.mision}</NavLink></li>
+                        <li><NavLink to="/accesibilidad">{textos.footer.compromiso}</NavLink></li>
+                        <li><NavLink to="/contacto">{textos.footer.consulta}</NavLink></li>
                     </ul>
 
                 </section>
@@ -75,17 +77,14 @@ export default function Footer() {
 
                 <div className="contenedor">
 
-                    <p>© 2026 Aprende sin Barreras. Todos los derechos reservados.</p>
+                    <p>{textos.footer.derechos}</p>
 
-                    <p>La educación es un derecho de todos.</p>
+                    <p>{textos.footer.frase}</p>
 
                 </div>
 
             </div>
 
         </footer>
-
     );
-
 }
-

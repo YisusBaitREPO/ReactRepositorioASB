@@ -1,91 +1,138 @@
 
+import { useIdioma } from "../context/IdiomaContext";
+
 export default function Nosotros() {
+    const { textos } = useIdioma();
+
     return (
         <>
             {/* PORTADA DE NOSOTROS */}
             <section className="nosotros-portada">
+
+                <img
+                    className="nosotros-portada-img"
+                    src="/MEDIA/IMG/portada-nosotros.jpg"
+                    alt=""
+                />
+
                 <div className="contenedor">
 
                     <p className="subtitulo">
-                        CONOCE NUESTRA PLATAFORMA
+                        {textos.nosotros.subtitulo}
                     </p>
 
-                    <h1>¿Quiénes somos?</h1>
+                    <h1>{textos.nosotros.titulo}</h1>
 
                     <p>
-                        Creemos que todas las personas merecen tener
-                        oportunidades para aprender.
+                        {textos.nosotros.descripcion}
                     </p>
 
                 </div>
             </section>
 
-            {/* NUESTRA HISTORIA */}
-            <section className="seccion">
-                <div className="contenedor">
 
-                    <div className="titulo-seccion">
-                        <h2>Nuestra historia</h2>
-                    </div>
+            {/* FONDO GENERAL: HISTORIA, MISIÓN, VISIÓN Y COMPROMISO */}
+            <div className="nosotros-fondo-global">
 
-                    <div className="nosotros-texto">
-                        <p>
-                            Aprende sin Barreras nace con la idea de facilitar
-                            el acceso a la educación digital. Queremos ofrecer
-                            un espacio donde las personas puedan adquirir
-                            conocimientos tecnológicos mediante contenidos
-                            sencillos y accesibles.
-                        </p>
-                    </div>
+                {/* IMAGEN DE FONDO PARA TODA ESTA ZONA */}
+                <img
+                    className="nosotros-fondo-img"
+                    src="/MEDIA/IMG/nosotros/fondoNosotros.png"
+                    alt=""
+                />
 
-                </div>
-            </section>
 
-            {/* MISIÓN Y VISIÓN */}
-            <section className="seccion">
-                <div className="contenedor">
+                {/* NUESTRA HISTORIA */}
+                <section className="seccion">
+                    <div className="contenedor">
 
-                    <div className="titulo-seccion">
-                        <h2>Nuestra misión y visión</h2>
-                    </div>
+                        <div className="titulo-seccion">
+                            <h2>{textos.nosotros.historiaTitulo}</h2>
+                        </div>
 
-                    <div className="valores">
+                        <div className="nosotros-historia-contenido">
 
-                        <article className="valor">
-                            <h2>Misión</h2>
+                            <div className="nosotros-texto">
+                                <p>
+                                    {textos.nosotros.historiaDescripcion}
+                                </p>
+                            </div>
 
-                            <p>
-                                Facilitar el aprendizaje de habilidades
-                                digitales mediante recursos educativos
-                                accesibles e inclusivos.
-                            </p>
-                        </article>
-
-                        <article className="valor">
-                            <h2>Visión</h2>
-
-                            <p>
-                                Ser un espacio educativo digital donde
-                                todas las personas puedan aprender
-                                sin barreras.
-                            </p>
-                        </article>
-
-                        <article className="valor">
-                            <h2>Compromiso</h2>
-
-                            <p>
-                                Promover la igualdad de oportunidades
-                                y el acceso a la información.
-                            </p>
-                        </article>
+                        </div>
 
                     </div>
+                </section>
 
-                </div>
-            </section>
+
+                {/* MISIÓN Y VISIÓN */}
+                <section className="seccion">
+                    <div className="contenedor">
+
+                        <div className="titulo-seccion">
+                            <h2>{textos.nosotros.misionVisionTitulo}</h2>
+                        </div>
+
+                        <div className="valores">
+
+                            {/* TARJETA MISIÓN */}
+                            <article className="valor">
+
+                                <img
+                                    className="valor-imagen"
+                                    src="/MEDIA/IMG/nosotros/mision.png"
+                                    alt=""
+                                />
+
+                                <h2>{textos.nosotros.misionTitulo}</h2>
+
+                                <p>
+                                    {textos.nosotros.misionDescripcion}
+                                </p>
+
+                            </article>
+
+
+                            {/* TARJETA VISIÓN */}
+                            <article className="valor">
+
+                                <img
+                                    className="valor-imagen"
+                                    src="/MEDIA/IMG/nosotros/vision.png"
+                                    alt=""
+                                />
+
+                                <h2>{textos.nosotros.visionTitulo}</h2>
+
+                                <p>
+                                    {textos.nosotros.visionDescripcion}
+                                </p>
+
+                            </article>
+
+
+                            {/* TARJETA COMPROMISO */}
+                            <article className="valor">
+
+                                <img
+                                    className="valor-imagen"
+                                    src="/MEDIA/IMG/nosotros/compromiso.png"
+                                    alt=""
+                                />
+
+                                <h2>{textos.nosotros.compromisoTitulo}</h2>
+
+                                <p>
+                                    {textos.nosotros.compromisoDescripcion}
+                                </p>
+
+                            </article>
+
+                        </div>
+
+                    </div>
+                </section>
+
+            </div>
         </>
     );
 }
-
- 

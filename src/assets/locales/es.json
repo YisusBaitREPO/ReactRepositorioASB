@@ -67,7 +67,13 @@
         "robustoTitulo": "Contenido robusto",
         "robustoDescripcion": "Organizaremos el HTML correctamente para facilitar su interpretación por navegadores y tecnologías asistivas.",
         "compromisoTitulo": "Nuestro compromiso",
-        "compromisoDescripcion": "Trabajaremos para mejorar continuamente la accesibilidad del portal tomando como referencia las pautas WCAG 2.1."
+        "compromisoDescripcion": "Trabajaremos para mejorar continuamente la accesibilidad del portal tomando como referencia las pautas WCAG 2.1.",
+        "formatosTitulo": "Formatos regionales",
+        "formatosDescripcion": "Adaptamos la presentación de fechas, horas, números y monedas según el idioma y la región seleccionada.",
+        "fecha": "Fecha",
+        "hora": "Hora",
+        "numero": "Número",
+        "moneda": "Moneda"
     },
     "contacto": {
         "subtitulo": "ESTAMOS PARA AYUDARTE",
@@ -77,7 +83,12 @@
         "correo": "Correo electrónico",
         "asunto": "Asunto",
         "mensaje": "Escribe tu mensaje",
-        "boton": "Enviar mensaje"
+        "boton": "Enviar mensaje",
+        "indicacion": "Todos los campos son obligatorios.",
+        "ayuda": "Completa todos los campos para enviar tu consulta.",
+        "errorCampos": "Por favor, completa todos los campos antes de continuar.",
+        "errorCorreo": "Ingresa un correo electrónico válido.",
+        "exito": "Tu mensaje se envió correctamente. (Demostración)"
     },
     "footer": {
         "titulo": "Aprende sin Barreras",

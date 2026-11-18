@@ -67,7 +67,13 @@
         "robustoTitulo": "Robust content",
         "robustoDescripcion": "We will organize the HTML correctly to make it easier for browsers and assistive technologies to interpret.",
         "compromisoTitulo": "Our commitment",
-        "compromisoDescripcion": "We will continuously work to improve the website's accessibility using the WCAG 2.1 guidelines as a reference."
+        "compromisoDescripcion": "We will continuously work to improve the website's accessibility using the WCAG 2.1 guidelines as a reference.",
+        "formatosTitulo": "Regional formats",
+        "formatosDescripcion": "We adapt the display of dates, times, numbers and currencies according to the selected language and region.",
+        "fecha": "Date",
+        "hora": "Time",
+        "numero": "Number",
+        "moneda": "Currency"
     },
     "contacto": {
         "subtitulo": "WE ARE HERE TO HELP",
@@ -77,7 +83,12 @@
         "correo": "Email address",
         "asunto": "Subject",
         "mensaje": "Write your message",
-        "boton": "Send message"
+        "boton": "Send message",
+        "indicacion": "All fields are required.",
+        "ayuda": "Complete all fields to send your inquiry.",
+        "errorCampos": "Please complete all fields before continuing.",
+        "errorCorreo": "Please enter a valid email address.",
+        "exito": "Your message was sent successfully. (Demo)"
     },
     "footer": {
         "titulo": "Aprende sin Barreras",

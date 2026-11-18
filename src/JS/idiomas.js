@@ -1,5 +1,5 @@
-import es from "../locales/es.json";
-import en from "../locales/en.json";
+import es from "../assets/locales/es.json";
+import en from "../assets/locales/en.json";
 
 // Reunimos todos los idiomas
 const idiomas = {

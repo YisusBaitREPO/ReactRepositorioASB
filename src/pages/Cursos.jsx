@@ -1,7 +1,9 @@
-
 import { Link } from "react-router-dom";
+import { useIdioma } from "../context/IdiomaContext";
 
 export default function Cursos() {
+    const { textos } = useIdioma();
+
     return (
         <section className="seccion">
             <div className="contenedor">
@@ -9,14 +11,13 @@ export default function Cursos() {
                 {/* TÍTULO DE LA SECCIÓN */}
                 <div className="titulo-seccion">
                     <p className="subtitulo">
-                        APRENDE A TU RITMO
+                        {textos.cursos.subtitulo}
                     </p>
 
-                    <h1>Nuestros cursos</h1>
+                    <h1>{textos.cursos.titulo}</h1>
 
                     <p>
-                        Explora nuestros cursos y desarrolla nuevas
-                        habilidades digitales desde cero.
+                        {textos.cursos.descripcion}
                     </p>
                 </div>
 
@@ -24,70 +25,70 @@ export default function Cursos() {
                 <div className="cursos-contenedor">
 
                     <article className="tarjeta-curso">
-                        <div className="curso-icono" aria-hidden="true">
-                            💻
+
+                        <div className="curso-imagen" aria-hidden="true">
+                            <img src="/MEDIA/IMG/computacionBasica.png" alt="laptop en 2D referente al tea=ma" />
                         </div>
 
-                        <h2>Computación básica</h2>
+                        <h2>{textos.cursos.curso1Titulo}</h2>
 
                         <p>
-                            Aprende a utilizar una computadora,
-                            manejar el teclado y organizar archivos.
+                            {textos.cursos.curso1Descripcion}
                         </p>
 
                         <Link to="/contacto">
-                            Consultar sobre este curso
+                            {textos.cursos.consultar}
                         </Link>
                     </article>
 
                     <article className="tarjeta-curso">
-                        <div className="curso-icono" aria-hidden="true">
-                            🌐
+
+                        <div className="curso-imagen" aria-hidden="true">
+                            <img src="/MEDIA/IMG/usoDeInternet.png" alt="Lupa en un navegador que representa Busqueda" />
                         </div>
 
-                        <h2>Uso de Internet</h2>
+                        <h2>{textos.cursos.curso2Titulo}</h2>
 
                         <p>
-                            Descubre cómo navegar, buscar información
-                            y utilizar diferentes páginas web.
+                            {textos.cursos.curso2Descripcion}
                         </p>
 
                         <Link to="/contacto">
-                            Consultar sobre este curso
+                            {textos.cursos.consultar}
                         </Link>
                     </article>
 
                     <article className="tarjeta-curso">
-                        <div className="curso-icono" aria-hidden="true">
-                            📧
+
+                        <div className="curso-imagen" aria-hidden="true">
+                            <img src="/MEDIA/IMG/herramientasDigitales.png" alt="Correo electronico (Herramienta)" />
                         </div>
 
-                        <h2>Herramientas digitales</h2>
+                        <h2>{textos.cursos.curso3Titulo}</h2>
 
                         <p>
-                            Aprende a utilizar el correo electrónico
-                            y otras herramientas digitales.
+                            {textos.cursos.curso3Descripcion}
                         </p>
 
                         <Link to="/contacto">
-                            Consultar sobre este curso
+                            {textos.cursos.consultar}
                         </Link>
                     </article>
 
                     <article className="tarjeta-curso">
-                        <div className="curso-icono" aria-hidden="true">
-                            🔒
+
+                        <div className="curso-imagen" aria-hidden="true">
+                            <img src="/MEDIA/IMG/seguridadDigital.png" alt="candado en una laptop representa seguridad" />
                         </div>
 
-                        <h2>Seguridad digital</h2>
+                        <h2>{textos.cursos.curso4Titulo}</h2>
 
                         <p>
-                            Conoce cómo proteger tus datos personales
-                            y navegar de manera segura.
+                            {textos.cursos.curso4Descripcion}
                         </p>
 
                         <Link to="/contacto">
-                            Consultar sobre este curso
+                            {textos.cursos.consultar}
                         </Link>
                     </article>
 
@@ -96,4 +97,3 @@ export default function Cursos() {
         </section>
     );
 }
-
