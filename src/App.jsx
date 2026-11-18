@@ -5,7 +5,7 @@ import Layout from './componentes/Layout'
 import Inicio from './pages/Inicio'
 import Cursos from './pages/Cursos'
 import Nosotros from './pages/Nosotros'
-import Accesibilidad from './pages/Accesibilidad'
+import Transparencia from './pages/Transparencia'
 import Contacto from './pages/Contacto'
 import "./CSS/estilosPrincipales.css"
 
@@ -21,7 +21,7 @@ function App() {
 
             <Route path="/nosotros" element={<Layout><Nosotros/></Layout>} />
 
-            <Route path="/accesibilidad" element={<Layout><Accesibilidad/></Layout>} />
+            <Route path="/transparencia" element={<Layout><Transparencia/></Layout>} />
 
             <Route path="/contacto" element={<Layout><Contacto/></Layout>} />
         </Routes>

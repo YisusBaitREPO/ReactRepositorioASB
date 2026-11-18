@@ -22,7 +22,6 @@ export default function Header() {
                         <li><NavLink to="/">{textos.menu.inicio}</NavLink></li>
                         <li><NavLink to="/cursos">{textos.menu.cursos}</NavLink></li>
                         <li><NavLink to="/nosotros">{textos.menu.nosotros}</NavLink></li>
-                        <li><NavLink to="/accesibilidad">{textos.menu.accesibilidad}</NavLink></li>
                         <li><NavLink to="/contacto">{textos.menu.contacto}</NavLink></li>
                     </ul>
                 </nav>

@@ -1,7 +1,7 @@
 
 import { useIdioma } from "../context/IdiomaContext";
 
-export default function Accesibilidad() {
+export default function Transparencia() {
     const { idioma, textos } = useIdioma();
 
     const region = idioma === "es" ? "es-PE" : "en-US";
@@ -29,13 +29,13 @@ export default function Accesibilidad() {
                 <div className="contenedor">
 
                     <p className="subtitulo">
-                        {textos.accesibilidad.subtitulo}
+                        {textos.transparencia.subtitulo}
                     </p>
 
-                    <h1>{textos.accesibilidad.titulo}</h1>
+                    <h1>{textos.transparencia.titulo}</h1>
 
                     <p>
-                        {textos.accesibilidad.descripcion}
+                        {textos.transparencia.descripcion}
                     </p>
 
                 </div>
@@ -46,44 +46,44 @@ export default function Accesibilidad() {
                 <div className="contenedor">
 
                     <div className="titulo-seccion">
-                        <h2>{textos.accesibilidad.seccionTitulo}</h2>
+                        <h2>{textos.transparencia.seccionTitulo}</h2>
 
                         <p>
-                            {textos.accesibilidad.seccionDescripcion}
+                            {textos.transparencia.seccionDescripcion}
                         </p>
                     </div>
 
                     <div className="accesibilidad-lista">
 
                         <article className="accesibilidad-item">
-                            <h2>{textos.accesibilidad.perceptibleTitulo}</h2>
+                            <h2>{textos.transparencia.perceptibleTitulo}</h2>
 
                             <p>
-                                {textos.accesibilidad.perceptibleDescripcion}
+                                {textos.transparencia.perceptibleDescripcion}
                             </p>
                         </article>
 
                         <article className="accesibilidad-item">
-                            <h2>{textos.accesibilidad.operableTitulo}</h2>
+                            <h2>{textos.transparencia.operableTitulo}</h2>
 
                             <p>
-                                {textos.accesibilidad.operableDescripcion}
+                                {textos.transparencia.operableDescripcion}
                             </p>
                         </article>
 
                         <article className="accesibilidad-item">
-                            <h2>{textos.accesibilidad.comprensibleTitulo}</h2>
+                            <h2>{textos.transparencia.comprensibleTitulo}</h2>
 
                             <p>
-                                {textos.accesibilidad.comprensibleDescripcion}
+                                {textos.transparencia.comprensibleDescripcion}
                             </p>
                         </article>
 
                         <article className="accesibilidad-item">
-                            <h2>{textos.accesibilidad.robustoTitulo}</h2>
+                            <h2>{textos.transparencia.robustoTitulo}</h2>
 
                             <p>
-                                {textos.accesibilidad.robustoDescripcion}
+                                {textos.transparencia.robustoDescripcion}
                             </p>
                         </article>
 
@@ -97,32 +97,32 @@ export default function Accesibilidad() {
                 <div className="contenedor">
 
                     <div className="titulo-seccion">
-                        <h2>{textos.accesibilidad.formatosTitulo}</h2>
+                        <h2>{textos.transparencia.formatosTitulo}</h2>
 
                         <p>
-                            {textos.accesibilidad.formatosDescripcion}
+                            {textos.transparencia.formatosDescripcion}
                         </p>
                     </div>
 
                     <div className="formatos-grid">
 
                         <article className="formato-item">
-                            <h3>{textos.accesibilidad.fecha}</h3>
+                            <h3>{textos.transparencia.fecha}</h3>
                             <p>{fecha}</p>
                         </article>
 
                         <article className="formato-item">
-                            <h3>{textos.accesibilidad.hora}</h3>
+                            <h3>{textos.transparencia.hora}</h3>
                             <p>{hora}</p>
                         </article>
 
                         <article className="formato-item">
-                            <h3>{textos.accesibilidad.numero}</h3>
+                            <h3>{textos.transparencia.numero}</h3>
                             <p>{numero}</p>
                         </article>
 
                         <article className="formato-item">
-                            <h3>{textos.accesibilidad.moneda}</h3>
+                            <h3>{textos.transparencia.moneda}</h3>
                             <p>{moneda}</p>
                         </article>
 
@@ -136,10 +136,10 @@ export default function Accesibilidad() {
                 <div className="contenedor">
 
                     <div className="titulo-seccion">
-                        <h2>{textos.accesibilidad.compromisoTitulo}</h2>
+                        <h2>{textos.transparencia.compromisoTitulo}</h2>
 
                         <p>
-                            {textos.accesibilidad.compromisoDescripcion}
+                            {textos.transparencia.compromisoDescripcion}
                         </p>
                     </div>
 

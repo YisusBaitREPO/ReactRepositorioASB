@@ -4,7 +4,7 @@
         "inicio": "Inicio",
         "cursos": "Cursos",
         "nosotros": "Nosotros",
-        "accesibilidad": "Accesibilidad",
+        "transparencia": "Transparencia",
         "contacto": "Contacto",
         "navegacionPrincipal": "Navegación principal"
     },
@@ -52,7 +52,7 @@
         "compromisoTitulo": "Compromiso",
         "compromisoDescripcion": "Promover la igualdad de oportunidades y el acceso a la información."
     },
-    "accesibilidad": {
+    "transparencia": {
         "subtitulo": "EDUCACIÓN INCLUSIVA",
         "titulo": "Accesibilidad para todos",
         "descripcion": "Nuestro objetivo es que cualquier persona pueda navegar y aprender en nuestra plataforma.",

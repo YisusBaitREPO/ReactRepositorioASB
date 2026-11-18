@@ -4,7 +4,7 @@
         "inicio": "Home",
         "cursos": "Courses",
         "nosotros": "About us",
-        "accesibilidad": "Accessibility",
+        "transparencia": "Transparency",
         "contacto": "Contact",
         "navegacionPrincipal": "Main navigation"
     },
@@ -52,7 +52,7 @@
         "compromisoTitulo": "Commitment",
         "compromisoDescripcion": "Promote equal opportunities and access to information."
     },
-    "accesibilidad": {
+    "transparencia": {
         "subtitulo": "INCLUSIVE EDUCATION",
         "titulo": "Accessibility for everyone",
         "descripcion": "Our goal is to make it possible for anyone to browse and learn on our platform.",
