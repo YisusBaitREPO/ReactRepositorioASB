@@ -11,9 +11,12 @@ export default function Header() {
                 {/* LOGO */}
                 <NavLink to="/" className="logo">
                     <img
-                        src="/MEDIA/IMG/logo.png"
+                        src="/MEDIA/IMG/logoR.webp"
                         alt="Aprende sin Barreras - Inicio"
+                        width="1536"
+                        height="1024"
                     />
+                    
                 </NavLink>
 
                 {/* MENÚ DE NAVEGACIÓN */}

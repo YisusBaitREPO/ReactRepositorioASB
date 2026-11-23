@@ -27,7 +27,7 @@ export default function Cursos() {
                     <article className="tarjeta-curso">
 
                         <div className="curso-imagen" aria-hidden="true">
-                            <img src="/MEDIA/IMG/computacionBasica.png" alt="laptop en 2D referente al tea=ma" />
+                            <img src="/MEDIA/IMG/computacionBasica.webp" alt="laptop en 2D referente al tema" />
                         </div>
 
                         <h2>{textos.cursos.curso1Titulo}</h2>
@@ -44,7 +44,7 @@ export default function Cursos() {
                     <article className="tarjeta-curso">
 
                         <div className="curso-imagen" aria-hidden="true">
-                            <img src="/MEDIA/IMG/usoDeInternet.png" alt="Lupa en un navegador que representa Busqueda" />
+                            <img src="/MEDIA/IMG/usoDeInternet.webp" alt="Lupa en un navegador que representa Busqueda" />
                         </div>
 
                         <h2>{textos.cursos.curso2Titulo}</h2>
@@ -61,7 +61,7 @@ export default function Cursos() {
                     <article className="tarjeta-curso">
 
                         <div className="curso-imagen" aria-hidden="true">
-                            <img src="/MEDIA/IMG/herramientasDigitales.png" alt="Correo electronico (Herramienta)" />
+                            <img src="/MEDIA/IMG/herramientasDigitales.webp" alt="Correo electronico (Herramienta)" />
                         </div>
 
                         <h2>{textos.cursos.curso3Titulo}</h2>
@@ -78,7 +78,7 @@ export default function Cursos() {
                     <article className="tarjeta-curso">
 
                         <div className="curso-imagen" aria-hidden="true">
-                            <img src="/MEDIA/IMG/seguridadDigital.png" alt="candado en una laptop representa seguridad" />
+                            <img src="/MEDIA/IMG/seguridadDigital.webp" alt="candado en una laptop representa seguridad" />
                         </div>
 
                         <h2>{textos.cursos.curso4Titulo}</h2>

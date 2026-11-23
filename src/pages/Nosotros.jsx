@@ -9,12 +9,6 @@ export default function Nosotros() {
             {/* PORTADA DE NOSOTROS */}
             <section className="nosotros-portada">
 
-                <img
-                    className="nosotros-portada-img"
-                    src="/MEDIA/IMG/portada-nosotros.jpg"
-                    alt=""
-                />
-
                 <div className="contenedor">
 
                     <p className="subtitulo">
@@ -37,7 +31,7 @@ export default function Nosotros() {
                 {/* IMAGEN DE FONDO PARA TODA ESTA ZONA */}
                 <img
                     className="nosotros-fondo-img"
-                    src="/MEDIA/IMG/nosotros/fondoNosotros.png"
+                    src="/MEDIA/IMG/nosotros/fondoNosotros.webp"
                     alt=""
                 />
 
@@ -79,7 +73,7 @@ export default function Nosotros() {
 
                                 <img
                                     className="valor-imagen"
-                                    src="/MEDIA/IMG/nosotros/mision.png"
+                                    src="/MEDIA/IMG/nosotros/mision.webp"
                                     alt=""
                                 />
 
@@ -97,7 +91,7 @@ export default function Nosotros() {
 
                                 <img
                                     className="valor-imagen"
-                                    src="/MEDIA/IMG/nosotros/vision.png"
+                                    src="/MEDIA/IMG/nosotros/vision.webp"
                                     alt=""
                                 />
 
@@ -115,7 +109,7 @@ export default function Nosotros() {
 
                                 <img
                                     className="valor-imagen"
-                                    src="/MEDIA/IMG/nosotros/compromiso.png"
+                                    src="/MEDIA/IMG/nosotros/compromiso.webp"
                                     alt=""
                                 />
 

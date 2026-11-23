@@ -31,8 +31,10 @@ export default function Inicio() {
 
                     <div className="portada-imagen">
                         <img
-                            src="/MEDIA/IMG/banner.jpg"
+                            src="/MEDIA/IMG/bannerR.webp"
                             alt={textos.inicio.imagenAlt}
+                            width="1792"
+                            height="592"
                         />
                     </div>
 
@@ -41,62 +43,65 @@ export default function Inicio() {
 
             {/* BENEFICIOS */}
             <section className="seccion">
-    <div className="contenedor">
+                <div className="contenedor">
 
-        <div className="titulo-seccion">
-            <p className="subtitulo">
-                {textos.inicio.ofrecemos}
-            </p>
+                    <div className="titulo-seccion">
+                        <p className="subtitulo">
+                            {textos.inicio.ofrecemos}
+                        </p>
 
-            <h2>{textos.inicio.seccionTitulo}</h2>
+                        <h2>{textos.inicio.seccionTitulo}</h2>
 
-            <p>
-                {textos.inicio.seccionDescripcion}
-            </p>
-        </div>
+                        <p>
+                            {textos.inicio.seccionDescripcion}
+                        </p>
+                    </div>
 
-        <div className="beneficios">
+                    <div className="beneficios">
 
-            <article className="beneficio">
-                <img
-                    src="/MEDIA/IMG/contenidoSencillo.png"
-                    alt="Libro y computadora que representan el aprendizaje sencillo"
-                />
+                        <article className="beneficio">
+                            <img
+                                src="/MEDIA/IMG/contenidoSencilloR.webp"
+                                alt="Libro y computadora que representan el aprendizaje sencillo"
+                                width="2048"
+                                height="817"
+                            />
 
-                <h2>{textos.inicio.beneficio1Titulo}</h2>
-                <p>
-                    {textos.inicio.beneficio1Descripcion}
-                </p>
-            </article>
+                            <h2>{textos.inicio.beneficio1Titulo}</h2>
+                            <p>{textos.inicio.beneficio1Descripcion}</p>
+                        </article>
 
-            <article className="beneficio">
-                <img
-                    src="/MEDIA/IMG/educacionInclusiva.png"
-                    alt="Personas aprendiendo juntas frente a una computadora"
-                />
+                        <article className="beneficio">
+                            <img
+                                src="/MEDIA/IMG/educacionInclusivaR.webp"
+                                alt="Personas aprendiendo juntas frente a una computadora"
+                                width="1600"
+                                height="639"
+                            />
 
-                <h2>{textos.inicio.beneficio2Titulo}</h2>
-                <p>
-                    {textos.inicio.beneficio2Descripcion}
-                </p>
-            </article>
+                            <h2>{textos.inicio.beneficio2Titulo}</h2>
+                            <p>
+                                {textos.inicio.beneficio2Descripcion}
+                            </p>
+                        </article>
 
-            <article className="beneficio">
-                <img
-                    src="/MEDIA/IMG/aprendizajeDigital.png"
-                    alt="Persona aprendiendo a utilizar herramientas digitales"
-                />
+                        <article className="beneficio">
+                            <img
+                                src="/MEDIA/IMG/aprendizajeDigitalR.webp"
+                                alt="Persona aprendiendo a utilizar herramientas digitales"
+                                width="2235"
+                                height="890"
+                            />
 
-                <h2>{textos.inicio.beneficio3Titulo}</h2>
-                <p>
-                    {textos.inicio.beneficio3Descripcion}
-                </p>
-            </article>
+                            <h2>{textos.inicio.beneficio3Titulo}</h2>
+                            <p>
+                                {textos.inicio.beneficio3Descripcion}
+                            </p>
+                        </article>
 
-        </div>
-    </div>
-</section>
+                    </div>
+                </div>
+            </section>
         </>
     );
 }
-
