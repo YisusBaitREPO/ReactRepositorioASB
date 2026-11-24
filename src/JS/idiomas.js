@@ -1,10 +1,12 @@
 import es from "../assets/locales/es.json";
 import en from "../assets/locales/en.json";
+import fr from "../assets/locales/fr.json"
 
 // Reunimos todos los idiomas
 const idiomas = {
     es: es,
-    en: en
+    en: en,
+    fr: fr
 };
 
 // Obtenemos las traducciones del idioma seleccionado

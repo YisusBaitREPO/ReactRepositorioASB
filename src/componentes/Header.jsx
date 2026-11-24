@@ -32,7 +32,7 @@ export default function Header() {
                 {/* SELECTOR DE IDIOMA */}
                 <div className="selector-idioma">
                     <label htmlFor="idioma">
-                        Language / Idioma
+                        Language / Idioma / Langue
                     </label>
 
                     <select
@@ -42,6 +42,7 @@ export default function Header() {
                     >
                         <option value="es">Español</option>
                         <option value="en">English</option>
+                        <option value="fr">Français</option>
                     </select>
                 </div>
 

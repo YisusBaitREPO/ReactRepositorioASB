@@ -9,7 +9,7 @@ export function IdiomaProvider({ children }) {
     const [idioma, setIdioma] = useState(() => {
         const idiomaGuardado = localStorage.getItem("idioma");
 
-        if (idiomaGuardado === "es" || idiomaGuardado === "en") {
+        if (idiomaGuardado === "es" || idiomaGuardado === "en" || idiomaGuardado === "fr") {
             return idiomaGuardado;
         }
 
