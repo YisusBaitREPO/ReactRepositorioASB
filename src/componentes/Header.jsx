@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import { useIdioma } from "../context/IdiomaContext";
 
 export default function Header() {
-    const { idioma, setIdioma, textos } = useIdioma();
+    const { textos } = useIdioma();
 
     return (
         <header className="encabezado">
@@ -16,7 +16,6 @@ export default function Header() {
                         width="1536"
                         height="1024"
                     />
-                    
                 </NavLink>
 
                 {/* MENÚ DE NAVEGACIÓN */}
@@ -29,26 +28,7 @@ export default function Header() {
                     </ul>
                 </nav>
 
-                {/* SELECTOR DE IDIOMA */}
-                <div className="selector-idioma">
-                    <label htmlFor="idioma">
-                        Language / Idioma / Langue
-                    </label>
-
-                    <select
-                        id="idioma"
-                        value={idioma}
-                        onChange={(e) => setIdioma(e.target.value)}
-                    >
-                        <option value="es">Español</option>
-                        <option value="en">English</option>
-                        <option value="fr">Français</option>
-                    </select>
-                </div>
-
             </div>
         </header>
     );
 }
-
-

@@ -1,0 +1,257 @@
+
+/* =====================================
+   PANEL DE ACCESIBILIDAD
+===================================== */
+
+.boton-accesibilidad {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 2000;
+
+    padding: 14px 20px;
+    border: 2px solid var(--azul-oscuro);
+    border-radius: 12px;
+
+    background-color: var(--azul);
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.panel-accesibilidad {
+    position: fixed;
+    right: 20px;
+    bottom: 85px;
+    z-index: 2000;
+
+    width: 320px;
+    max-width: calc(100vw - 40px);
+    max-height: 75vh;
+    overflow-y: auto;
+
+    padding: 20px;
+    border: 2px solid var(--azul);
+    border-radius: 14px;
+
+    background-color: white;
+    color: var(--texto);
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.panel-accesibilidad-cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.panel-accesibilidad h2 {
+    margin: 0 0 15px;
+    font-size: 20px;
+}
+
+.panel-accesibilidad h3 {
+    margin: 0 0 10px;
+    font-size: 16px;
+}
+
+.panel-accesibilidad-cabecera button {
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.panel-accesibilidad .selector-idioma {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+.panel-accesibilidad select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--borde);
+    border-radius: 8px;
+    background-color: white;
+    color: var(--texto);
+    font-size: 16px;
+}
+
+.opcion-accesibilidad {
+    margin-bottom: 16px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--borde);
+}
+
+.botones-texto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.botones-texto button {
+    padding: 8px 16px;
+    border: 1px solid var(--azul);
+    border-radius: 8px;
+    background-color: var(--celeste);
+    color: var(--azul-oscuro);
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boton-opcion,
+.boton-restablecer {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid var(--azul);
+    border-radius: 8px;
+    background-color: var(--celeste);
+    color: var(--azul-oscuro);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.boton-restablecer {
+    background-color: var(--azul);
+    color: white;
+}
+
+.panel-accesibilidad button:hover {
+    opacity: 0.85;
+}
+
+.panel-accesibilidad button:focus-visible,
+.panel-accesibilidad select:focus-visible,
+.boton-accesibilidad:focus-visible {
+    outline: 3px solid #C06A00;
+    outline-offset: 3px;
+}
+
+/* =====================================
+   AUMENTAR Y DISMINUIR TEXTO
+===================================== */
+
+html {
+    font-size: var(--tamano-texto, 100%);
+}
+
+body {
+    font-size: 1rem;
+}
+
+/* =====================================
+   ALTO CONTRASTE
+===================================== */
+
+html[data-contraste="alto"] body {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+html[data-contraste="alto"] body * {
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+html[data-contraste="alto"] body a {
+    color: #ffff00 !important;
+    text-decoration: underline !important;
+}
+
+html[data-contraste="alto"] body button,
+html[data-contraste="alto"] body select {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    border: 2px solid #ffffff !important;
+}
+
+html[data-contraste="alto"] .panel-accesibilidad {
+    background-color: #000000 !important;
+}
+
+/* =====================================
+   RESALTAR ENLACES
+===================================== */
+
+html[data-enlaces="resaltados"] a {
+    background-color: #fff2a8 !important;
+    color: #000000 !important;
+    text-decoration: underline !important;
+    text-decoration-thickness: 3px !important;
+    outline: 2px solid #000000;
+    outline-offset: 2px;
+}
+
+/* =====================================
+   DETENER ANIMACIONES
+===================================== */
+
+html[data-animaciones="detenidas"] *,
+html[data-animaciones="detenidas"] *::before,
+html[data-animaciones="detenidas"] *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+}
+
+/* =====================================
+   MODOS DE DALTONISMO
+===================================== */
+
+.filtros-daltonismo {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+html[data-daltonismo="protanopia"] body {
+    filter: url(#filtro-protanopia);
+}
+
+html[data-daltonismo="deuteranopia"] body {
+    filter: url(#filtro-deuteranopia);
+}
+
+html[data-daltonismo="tritanopia"] body {
+    filter: url(#filtro-tritanopia);
+}
+
+/* =====================================
+   PANEL EN PANTALLAS PEQUEÑAS
+===================================== */
+
+@media (max-width: 480px) {
+    .panel-accesibilidad {
+        right: 10px;
+        bottom: 75px;
+        width: calc(100vw - 20px);
+        max-width: none;
+    }
+
+    .boton-accesibilidad {
+        right: 10px;
+        bottom: 10px;
+    }
+}
+
+/* Modos de daltonismo */
+
+html[data-daltonismo="protanopia"] body {
+    filter: url("#filtro-protanopia");
+}
+
+html[data-daltonismo="deuteranopia"] body {
+    filter: url("#filtro-deuteranopia");
+}
+
+html[data-daltonismo="tritanopia"] body {
+    filter: url("#filtro-tritanopia");
+}
