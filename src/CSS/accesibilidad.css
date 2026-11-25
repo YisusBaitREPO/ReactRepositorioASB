@@ -4,27 +4,27 @@
 ===================================== */
 
 .boton-accesibilidad {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    z-index: 2000;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    padding: 14px 20px;
+    padding: 0;
     border: 2px solid var(--azul-oscuro);
-    border-radius: 12px;
+    border-radius: 50%;
 
     background-color: var(--azul);
     color: white;
-
-    font-size: 16px;
-    font-weight: bold;
     cursor: pointer;
-}
 
+    flex-shrink: 0;
+}
 .panel-accesibilidad {
     position: fixed;
+    top: 100px;
     right: 20px;
-    bottom: 85px;
+    bottom: auto;
     z-index: 2000;
 
     width: 320px;
@@ -150,30 +150,45 @@ body {
    ALTO CONTRASTE
 ===================================== */
 
-html[data-contraste="alto"] body {
+/* =====================================
+   MODOS DE CONTRASTE
+===================================== */
+
+/* INVERTIR COLORES */
+html[data-contraste="invertido"] #root {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+
+/* CONTRASTE OSCURO */
+html[data-contraste="oscuro"] #root {
     background-color: #000000 !important;
     color: #ffffff !important;
 }
 
-html[data-contraste="alto"] body * {
+html[data-contraste="oscuro"] #root * {
     color: #ffffff !important;
     border-color: #ffffff !important;
 }
 
-html[data-contraste="alto"] body a {
+html[data-contraste="oscuro"] #root a {
     color: #ffff00 !important;
-    text-decoration: underline !important;
 }
 
-html[data-contraste="alto"] body button,
-html[data-contraste="alto"] body select {
-    background-color: #000000 !important;
-    color: #ffffff !important;
-    border: 2px solid #ffffff !important;
+
+/* CONTRASTE DE LUZ */
+html[data-contraste="luz"] #root {
+    background-color: #ffffff !important;
+    color: #000000 !important;
 }
 
-html[data-contraste="alto"] .panel-accesibilidad {
-    background-color: #000000 !important;
+html[data-contraste="luz"] #root * {
+    color: #000000 !important;
+    border-color: #000000 !important;
+}
+
+html[data-contraste="luz"] #root a {
+    color: #0000cc !important;
 }
 
 /* =====================================
@@ -201,9 +216,7 @@ html[data-animaciones="detenidas"] *::after {
     scroll-behavior: auto !important;
 }
 
-/* =====================================
-   MODOS DE DALTONISMO
-===================================== */
+/* MODOS DE DALTONISMO */
 
 .filtros-daltonismo {
     position: absolute;
@@ -212,16 +225,16 @@ html[data-animaciones="detenidas"] *::after {
     overflow: hidden;
 }
 
-html[data-daltonismo="protanopia"] body {
-    filter: url(#filtro-protanopia);
+html[data-daltonismo="protanopia"] #root {
+    filter: url("#filtro-protanopia");
 }
 
-html[data-daltonismo="deuteranopia"] body {
-    filter: url(#filtro-deuteranopia);
+html[data-daltonismo="deuteranopia"] #root {
+    filter: url("#filtro-deuteranopia");
 }
 
-html[data-daltonismo="tritanopia"] body {
-    filter: url(#filtro-tritanopia);
+html[data-daltonismo="tritanopia"] #root {
+    filter: url("#filtro-tritanopia");
 }
 
 /* =====================================
@@ -230,28 +243,60 @@ html[data-daltonismo="tritanopia"] body {
 
 @media (max-width: 480px) {
     .panel-accesibilidad {
+        position: fixed;
+        top: 90px;
         right: 10px;
-        bottom: 75px;
+        bottom: auto;
+
         width: calc(100vw - 20px);
         max-width: none;
+        max-height: calc(100vh - 110px);
     }
 
     .boton-accesibilidad {
-        right: 10px;
-        bottom: 10px;
+        position: static;
+        width: 45px;
+        height: 45px;
     }
 }
 
-/* Modos de daltonismo */
+/* =====================================
+   ICONOS DEL PANEL
+===================================== */
 
-html[data-daltonismo="protanopia"] body {
-    filter: url("#filtro-protanopia");
+.icono-opcion {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-bottom: 8px;
+    transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-html[data-daltonismo="deuteranopia"] body {
-    filter: url("#filtro-deuteranopia");
+/* Cuando el cursor pasa por una opción */
+.opcion-accesibilidad:hover .icono-opcion,
+.opcion-accesibilidad:focus-within .icono-opcion,
+.selector-idioma:hover .icono-opcion,
+.selector-idioma:focus-within .icono-opcion {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 4px #24558A);
 }
 
-html[data-daltonismo="tritanopia"] body {
-    filter: url("#filtro-tritanopia");
+/* =====================================
+   SATURACIÓN DE COLORES
+===================================== */
+
+/* BAJA SATURACIÓN */
+html[data-saturacion="baja"] #root {
+    filter: saturate(0.5);
+}
+
+/* ALTA SATURACIÓN */
+html[data-saturacion="alta"] #root {
+    filter: saturate(2);
+}
+
+/* DESATURACIÓN COMPLETA */
+html[data-saturacion="desaturada"] #root {
+    filter: saturate(0);
 }

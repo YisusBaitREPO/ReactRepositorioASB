@@ -1,5 +1,7 @@
+
 import { NavLink } from "react-router-dom";
 import { useIdioma } from "../context/IdiomaContext";
+import PanelAccesible from "./PanelAccesible";
 
 export default function Header() {
     const { textos } = useIdioma();
@@ -27,6 +29,9 @@ export default function Header() {
                         <li><NavLink to="/contacto">{textos.menu.contacto}</NavLink></li>
                     </ul>
                 </nav>
+
+                {/* BOTÓN DE ACCESIBILIDAD */}
+                <PanelAccesible />
 
             </div>
         </header>

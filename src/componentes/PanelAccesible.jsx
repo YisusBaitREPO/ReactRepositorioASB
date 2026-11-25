@@ -2,29 +2,24 @@
 import { useState, useEffect } from "react";
 import { useIdioma } from "../context/IdiomaContext";
 import "../CSS/accesibilidad.css"
+import { createPortal } from "react-dom";
+
 
 export default function PanelAccesible() {
 
     const { idioma, setIdioma } = useIdioma();
 
-    const [daltonismo, setDaltonismo] = useState("normal");
 
     const [abierto, setAbierto] = useState(false);
 
-    useEffect(() => {
-    document.documentElement.dataset.daltonismo = daltonismo;
-
-    localStorage.setItem("daltonismo", daltonismo);
-}, [daltonismo]);
-
     const ajustesIniciales = {
         texto: 100,
-        contraste: false,
+        contraste: "normal",
         enlaces: false,
         animaciones: false,
-        daltonismo: "normal"
+        daltonismo: "normal",
+        saturacion: "normal"
     };
-
     const [ajustes, setAjustes] = useState(() => {
         const guardado = localStorage.getItem("ajustesAccesibilidad");
 
@@ -57,7 +52,9 @@ export default function PanelAccesible() {
             ajustes.texto + "%"
         );
 
-        pagina.dataset.contraste = ajustes.contraste ? "alto" : "normal";
+        pagina.dataset.contraste = ajustes.contraste;
+
+        pagina.dataset.saturacion = ajustes.saturacion;
 
         pagina.dataset.enlaces = ajustes.enlaces ? "resaltados" : "normal";
 
@@ -150,12 +147,12 @@ export default function PanelAccesible() {
     </svg>
 </button>
 
-            {abierto && (
-                <section
-                    id="panel-accesibilidad"
-                    className="panel-accesibilidad"
-                    aria-label="Opciones de accesibilidad"
-                >
+            {abierto && createPortal(
+    <section
+        id="panel-accesibilidad"
+        className="panel-accesibilidad"
+        aria-label="Opciones de Accesibilidad"
+    >
                     <div className="panel-accesibilidad-cabecera">
                         <h2>Panel de accesibilidad</h2>
 
@@ -170,10 +167,13 @@ export default function PanelAccesible() {
 
                     {/* Selector de idioma */}
                     <div className="selector-idioma">
+
+                        <span className="icono-opcion" aria-hidden="true">🌐</span>
+                                
                         <label htmlFor="idioma-panel">
                             Language / Idioma / Langue
                         </label>
-
+                                
                         <select
                             id="idioma-panel"
                             value={idioma}
@@ -183,30 +183,39 @@ export default function PanelAccesible() {
                             <option value="en">English</option>
                             <option value="fr">Français</option>
                         </select>
+
                     </div>
 
                     <div className="opcion-accesibilidad">
-    <label htmlFor="modo-daltonismo">
-        Modo para daltónicos
-    </label>
 
-    <select
-        id="modo-daltonismo"
-        value={daltonismo}
-        onChange={(e) => setDaltonismo(e.target.value)}
-    >
-        <option value="normal">Visión normal</option>
-        <option value="protanopia">Protanopia</option>
-        <option value="deuteranopia">Deuteranopia</option>
-        <option value="tritanopia">Tritanopia</option>
-    </select>
-</div>
+                        <span className="icono-opcion" aria-hidden="true">👁️</span>
+                                
+                        <label htmlFor="modo-daltonismo">
+                            Modo para daltónicos
+                        </label>
+                                
+                        <select
+                            id="modo-daltonismo"
+                            value={ajustes.daltonismo}
+                            onChange={(e) => cambiarAjuste("daltonismo", e.target.value)}
+                        >
+                            <option value="normal">Visión normal</option>
+                            <option value="protanopia">Protanopia</option>
+                            <option value="deuteranopia">Deuteranopia</option>
+                            <option value="tritanopia">Tritanopia</option>
+                        </select>
+
+                    </div>
 
                     {/* Tamaño del texto */}
                     <div className="opcion-accesibilidad">
+
+                        <span className="icono-opcion" aria-hidden="true">🔠</span>
+
                         <h3>Tamaño del texto</h3>
 
                         <div className="botones-texto">
+
                             <button
                                 type="button"
                                 onClick={() => cambiarAjuste(
@@ -217,9 +226,9 @@ export default function PanelAccesible() {
                             >
                                 A-
                             </button>
-
+                            
                             <span>{ajustes.texto}%</span>
-
+                            
                             <button
                                 type="button"
                                 onClick={() => cambiarAjuste(
@@ -230,75 +239,85 @@ export default function PanelAccesible() {
                             >
                                 A+
                             </button>
+                            
                         </div>
+
                     </div>
 
                     {/* Alto contraste */}
+                    {/** Contraste de pantalla */}
                     <div className="opcion-accesibilidad">
-                        <button
-                            type="button"
-                            className="boton-opcion"
-                            aria-pressed={ajustes.contraste}
-                            onClick={() => cambiarAjuste(
-                                "contraste",
-                                !ajustes.contraste
-                            )}
+
+                        <span className="icono-opcion" aria-hidden="true">◐</span>
+
+                        <label htmlFor="contraste">
+                            Contraste de pantalla
+                        </label>
+
+                        <select
+                            id="contraste"
+                            value={ajustes.contraste}
+                            onChange={(e) => cambiarAjuste("contraste", e.target.value)}
                         >
-                            {ajustes.contraste ? "Desactivar" : "Activar"} alto contraste
-                        </button>
+                            <option value="normal">Normal</option>
+                            <option value="invertido">Invertir colores</option>
+                            <option value="oscuro">Contraste oscuro</option>
+                            <option value="luz">Contraste de luz</option>
+                        </select>
+
+                    </div>
+
+                    {/** Saturación de colores */}
+                    <div className="opcion-accesibilidad">
+
+                        <span className="icono-opcion" aria-hidden="true">💧</span>
+
+                        <label htmlFor="saturacion">
+                            Saturación de colores
+                        </label>
+
+                        <select
+                            id="saturacion"
+                            value={ajustes.saturacion}
+                            onChange={(e) => cambiarAjuste("saturacion", e.target.value)}
+                        >
+                            <option value="normal">Normal</option>
+                            <option value="baja">Baja saturación</option>
+                            <option value="alta">Alta saturación</option>
+                            <option value="desaturada">Desaturación</option>
+                        </select>
+
                     </div>
 
                     {/* Resaltar enlaces */}
                     <div className="opcion-accesibilidad">
-                        <button
+
+                        <span className="icono-opcion" aria-hidden="true">🔗</span>
+
+                                            <button
                             type="button"
                             className="boton-opcion"
                             aria-pressed={ajustes.enlaces}
-                            onClick={() => cambiarAjuste(
-                                "enlaces",
-                                !ajustes.enlaces
-                            )}
+                            onClick={() => cambiarAjuste("enlaces", !ajustes.enlaces)}
                         >
                             {ajustes.enlaces ? "Desactivar" : "Activar"} resaltado de enlaces
                         </button>
+
                     </div>
 
                     {/* Detener animaciones */}
                     <div className="opcion-accesibilidad">
+
+                        <span className="icono-opcion" aria-hidden="true">🎬</span>
+
                         <button
                             type="button"
                             className="boton-opcion"
                             aria-pressed={ajustes.animaciones}
-                            onClick={() => cambiarAjuste(
-                                "animaciones",
-                                !ajustes.animaciones
-                            )}
-                        >
+                            onClick={() => cambiarAjuste("animaciones", !ajustes.animaciones)}>
                             {ajustes.animaciones ? "Activar" : "Detener"} animaciones
                         </button>
                     </div>
-
-                    {/* Modo de daltonismo */}
-                    <div className="opcion-accesibilidad">
-                        <label htmlFor="modo-daltonismo">
-                            Modo de visión de colores
-                        </label>
-
-                        <select
-                            id="modo-daltonismo"
-                            value={ajustes.daltonismo}
-                            onChange={(e) => cambiarAjuste(
-                                "daltonismo",
-                                e.target.value
-                            )}
-                        >
-                            <option value="normal">Normal</option>
-                            <option value="protanopia">Protanopia</option>
-                            <option value="deuteranopia">Deuteranopia</option>
-                            <option value="tritanopia">Tritanopia</option>
-                        </select>
-                    </div>
-
                     {/* Restablecer */}
                     <button
                         type="button"
@@ -307,7 +326,8 @@ export default function PanelAccesible() {
                     >
                         Restablecer ajustes
                     </button>
-                </section>
+                </section>,
+                document.body
             )}
         </>
     );
