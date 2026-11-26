@@ -1,0 +1,302 @@
+
+/* CONTENEDOR GENERAL */
+
+.reservar-seccion {
+    min-height: 70vh;
+}
+
+/* BUSCADOR */
+
+.buscador-cursos {
+    max-width: 600px;
+    margin: 35px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buscador-cursos label {
+    font-weight: 600;
+    color: var(--texto);
+}
+
+.buscador-cursos input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid var(--borde);
+    border-radius: 8px;
+    font-size: 16px;
+    color: var(--texto);
+    background: white;
+}
+
+.buscador-cursos input:focus {
+    outline: 3px solid var(--azul);
+    outline-offset: 2px;
+}
+
+/* TARJETAS */
+
+.reservar-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.tarjeta-reservar {
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid var(--borde);
+    border-radius: 12px;
+    background: white;
+    text-align: left;
+    color: var(--texto);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.tarjeta-reservar:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.tarjeta-reservar:focus-visible {
+    outline: 3px solid #C06A00;
+    outline-offset: 4px;
+}
+
+.tarjeta-reservar img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+.tarjeta-reservar-contenido {
+    padding: 18px;
+}
+
+.tarjeta-reservar h2 {
+    font-size: 19px;
+    margin: 10px 0;
+    color: var(--azul-oscuro);
+}
+
+.tarjeta-reservar p {
+    margin-bottom: 10px;
+    color: var(--gris);
+}
+
+.tarjeta-reservar strong {
+    color: var(--azul);
+    font-size: 17px;
+}
+
+.categoria-curso {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: var(--celeste);
+    color: var(--azul-oscuro);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* MENSAJES */
+
+.mensaje-cursos {
+    margin: 40px 0;
+    text-align: center;
+    color: var(--gris);
+    font-size: 18px;
+}
+
+/* FONDO DEL MODAL */
+
+.modal-fondo {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.65);
+}
+
+/* VENTANA DEL CURSO */
+
+.modal-curso {
+    position: relative;
+    width: 100%;
+    max-width: 550px;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 25px;
+    border-radius: 14px;
+    background: white;
+    color: var(--texto);
+}
+
+.modal-cerrar {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    width: 38px;
+    height: 38px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    color: #183B63;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.modal-imagen {
+    width: 100%;
+    height: 220px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.modal-curso h2 {
+    margin: 12px 0;
+    color: var(--azul-oscuro);
+}
+
+.modal-curso p {
+    margin: 12px 0;
+    line-height: 1.6;
+}
+
+/* CANTIDAD */
+
+.cantidad-cursos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    margin: 25px 0;
+}
+
+.cantidad-cursos button {
+    width: 38px;
+    height: 38px;
+    border: none;
+    border-radius: 7px;
+    background: var(--azul);
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.cantidad-cursos button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.cantidad-cursos span {
+    font-weight: 600;
+}
+
+/* TOTAL */
+
+.total-cursos {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-top: 1px solid var(--borde);
+    font-size: 19px;
+}
+
+/* BOTONES */
+
+.acciones-modal {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.boton-pagar,
+.boton-invitado {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.boton-pagar {
+    background: var(--azul);
+    color: white;
+}
+
+.boton-invitado {
+    background: var(--verde);
+    color: var(--texto);
+}
+
+.boton-pagar:hover {
+    background: var(--azul-oscuro);
+}
+
+.boton-invitado:hover {
+    filter: brightness(0.95);
+}
+
+.boton-pagar:focus-visible,
+.boton-invitado:focus-visible,
+.cantidad-cursos button:focus-visible,
+.modal-cerrar:focus-visible {
+    outline: 3px solid #C06A00;
+    outline-offset: 3px;
+}
+
+/* CONFIRMACIÓN */
+
+.mensaje-exito {
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #8CC9A4;
+    border-radius: 10px;
+    background: var(--verde);
+    color: var(--texto);
+    text-align: center;
+}
+
+.mensaje-exito p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.mensaje-exito button {
+    padding: 9px 20px;
+    border: none;
+    border-radius: 6px;
+    background: var(--azul);
+    color: white;
+    cursor: pointer;
+}
+
+/* PANTALLAS PEQUEÑAS */
+
+@media (max-width: 600px) {
+
+    .reservar-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .modal-curso {
+        padding: 18px;
+    }
+
+    .modal-imagen {
+        height: 180px;
+    }
+
+}
