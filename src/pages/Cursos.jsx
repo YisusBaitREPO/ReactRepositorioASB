@@ -92,6 +92,8 @@ export default function Cursos() {
                         </Link>
                     </article>
 
+                    <button> Explorar mas cursos</button>
+
                 </div>
             </div>
         </section>
