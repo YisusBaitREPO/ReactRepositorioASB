@@ -1,0 +1,452 @@
+[
+    {
+        "id": 1,
+        "nombre": "Alfabetización digital desde cero",
+        "categoria": "Alfabetización digital",
+        "stock": 8,
+        "imagen": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Aprende qué es la tecnología digital y cómo utilizar dispositivos y servicios básicos.",
+        "precioMensual": 45
+    },
+    {
+        "id": 2,
+        "nombre": "Manejo de computadoras para principiantes",
+        "categoria": "Computación",
+        "stock": 12,
+        "imagen": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Conoce las partes de una computadora y aprende a utilizarla paso a paso.",
+        "precioMensual": 50
+    },
+    {
+        "id": 3,
+        "nombre": "Sistema operativo Windows básico",
+        "categoria": "Computación",
+        "stock": 15,
+        "imagen": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Aprende a utilizar el escritorio, las ventanas, los archivos y la configuración de Windows.",
+        "precioMensual": 55
+    },
+    {
+        "id": 4,
+        "nombre": "Organización de archivos y carpetas",
+        "categoria": "Computación",
+        "stock": 20,
+        "imagen": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Crea, organiza, mueve, copia y encuentra archivos y carpetas en tu equipo.",
+        "precioMensual": 35
+    },
+    {
+        "id": 5,
+        "nombre": "Atajos de teclado esenciales",
+        "categoria": "Computación",
+        "stock": 25,
+        "imagen": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Ahorra tiempo con combinaciones de teclas útiles para las tareas diarias.",
+        "precioMensual": 30
+    },
+    {
+        "id": 6,
+        "nombre": "Introducción a Microsoft Word",
+        "categoria": "Ofimática",
+        "stock": 30,
+        "imagen": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Crea documentos, aplica formato, inserta imágenes y organiza textos.",
+        "precioMensual": 50
+    },
+    {
+        "id": 7,
+        "nombre": "Hojas de cálculo con Excel básico",
+        "categoria": "Ofimática",
+        "stock": 8,
+        "imagen": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Registra datos, utiliza fórmulas sencillas y crea tablas en hojas de cálculo.",
+        "precioMensual": 60
+    },
+    {
+        "id": 8,
+        "nombre": "Presentaciones con PowerPoint",
+        "categoria": "Ofimática",
+        "stock": 12,
+        "imagen": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Diseña presentaciones claras con diapositivas, imágenes y elementos visuales.",
+        "precioMensual": 50
+    },
+    {
+        "id": 9,
+        "nombre": "Documentos colaborativos con Google Docs",
+        "categoria": "Ofimática",
+        "stock": 15,
+        "imagen": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Crea documentos en línea y trabaja en ellos con otras personas.",
+        "precioMensual": 45
+    },
+    {
+        "id": 10,
+        "nombre": "Hojas de cálculo con Google Sheets",
+        "categoria": "Ofimática",
+        "stock": 20,
+        "imagen": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Organiza información y realiza cálculos básicos desde el navegador.",
+        "precioMensual": 50
+    },
+    {
+        "id": 11,
+        "nombre": "Navegación segura por Internet",
+        "categoria": "Internet",
+        "stock": 25,
+        "imagen": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Aprende a navegar, reconocer sitios confiables y evitar páginas sospechosas.",
+        "precioMensual": 40
+    },
+    {
+        "id": 12,
+        "nombre": "Búsqueda efectiva de información",
+        "categoria": "Internet",
+        "stock": 30,
+        "imagen": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Encuentra información útil utilizando palabras clave y filtros de búsqueda.",
+        "precioMensual": 35
+    },
+    {
+        "id": 13,
+        "nombre": "Uso responsable de redes sociales",
+        "categoria": "Comunicación digital",
+        "stock": 8,
+        "imagen": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Configura tus perfiles, comparte con responsabilidad y cuida tu privacidad.",
+        "precioMensual": 40
+    },
+    {
+        "id": 14,
+        "nombre": "Correo electrónico desde cero",
+        "categoria": "Comunicación digital",
+        "stock": 12,
+        "imagen": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Crea y administra una cuenta de correo, envía mensajes y adjunta archivos.",
+        "precioMensual": 35
+    },
+    {
+        "id": 15,
+        "nombre": "Videollamadas para estudiar y trabajar",
+        "categoria": "Comunicación digital",
+        "stock": 15,
+        "imagen": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Participa en reuniones virtuales y aprende a utilizar cámara, micrófono y chat.",
+        "precioMensual": 40
+    },
+    {
+        "id": 16,
+        "nombre": "Almacenamiento en la nube con Google Drive",
+        "categoria": "Herramientas digitales",
+        "stock": 20,
+        "imagen": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Guarda, organiza y comparte archivos en la nube.",
+        "precioMensual": 45
+    },
+    {
+        "id": 17,
+        "nombre": "Compartir archivos y enlaces correctamente",
+        "categoria": "Herramientas digitales",
+        "stock": 25,
+        "imagen": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Aprende a compartir documentos y administrar permisos de acceso.",
+        "precioMensual": 30
+    },
+    {
+        "id": 18,
+        "nombre": "Calendarios digitales y organización personal",
+        "categoria": "Productividad",
+        "stock": 30,
+        "imagen": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Organiza tus actividades, crea recordatorios y administra tu tiempo.",
+        "precioMensual": 40
+    },
+    {
+        "id": 19,
+        "nombre": "Gestión de tareas con herramientas digitales",
+        "categoria": "Productividad",
+        "stock": 8,
+        "imagen": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Planifica actividades y realiza seguimiento de tareas con aplicaciones digitales.",
+        "precioMensual": 45
+    },
+    {
+        "id": 20,
+        "nombre": "Edición básica de imágenes con Canva",
+        "categoria": "Diseño digital",
+        "stock": 12,
+        "imagen": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Crea diseños sencillos para publicaciones, invitaciones y materiales educativos.",
+        "precioMensual": 55
+    },
+    {
+        "id": 21,
+        "nombre": "Diseño de presentaciones visuales con Canva",
+        "categoria": "Diseño digital",
+        "stock": 15,
+        "imagen": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Elabora presentaciones atractivas utilizando plantillas y recursos gráficos.",
+        "precioMensual": 55
+    },
+    {
+        "id": 22,
+        "nombre": "Edición básica de fotografías",
+        "categoria": "Diseño digital",
+        "stock": 20,
+        "imagen": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Recorta, ajusta colores y mejora fotografías con herramientas sencillas.",
+        "precioMensual": 45
+    },
+    {
+        "id": 23,
+        "nombre": "Creación de infografías educativas",
+        "categoria": "Diseño digital",
+        "stock": 25,
+        "imagen": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Resume información mediante textos breves, iconos y elementos visuales.",
+        "precioMensual": 50
+    },
+    {
+        "id": 24,
+        "nombre": "Introducción al diseño gráfico digital",
+        "categoria": "Diseño digital",
+        "stock": 30,
+        "imagen": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Conoce principios básicos de composición, color, tipografía y diseño.",
+        "precioMensual": 60
+    },
+    {
+        "id": 25,
+        "nombre": "Seguridad de contraseñas",
+        "categoria": "Ciberseguridad",
+        "stock": 8,
+        "imagen": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Crea contraseñas seguras y aprende a utilizar gestores de contraseñas.",
+        "precioMensual": 40
+    },
+    {
+        "id": 26,
+        "nombre": "Reconocer correos y mensajes fraudulentos",
+        "categoria": "Ciberseguridad",
+        "stock": 12,
+        "imagen": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Identifica señales de phishing, enlaces sospechosos y posibles estafas.",
+        "precioMensual": 45
+    },
+    {
+        "id": 27,
+        "nombre": "Privacidad y protección de datos personales",
+        "categoria": "Ciberseguridad",
+        "stock": 15,
+        "imagen": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Configura la privacidad de tus cuentas y protege tu información personal.",
+        "precioMensual": 45
+    },
+    {
+        "id": 28,
+        "nombre": "Autenticación en dos pasos",
+        "categoria": "Ciberseguridad",
+        "stock": 20,
+        "imagen": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Añade una capa adicional de seguridad a tus cuentas digitales.",
+        "precioMensual": 35
+    },
+    {
+        "id": 29,
+        "nombre": "Copias de seguridad para principiantes",
+        "categoria": "Ciberseguridad",
+        "stock": 25,
+        "imagen": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Realiza respaldos de tus archivos importantes y aprende a recuperarlos.",
+        "precioMensual": 40
+    },
+    {
+        "id": 30,
+        "nombre": "Uso seguro de dispositivos móviles",
+        "categoria": "Ciberseguridad",
+        "stock": 30,
+        "imagen": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Configura bloqueos, permisos y actualizaciones para proteger tu celular.",
+        "precioMensual": 45
+    },
+    {
+        "id": 31,
+        "nombre": "Uso básico de Android",
+        "categoria": "Dispositivos móviles",
+        "stock": 8,
+        "imagen": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Aprende a configurar tu teléfono, instalar aplicaciones y administrar ajustes.",
+        "precioMensual": 45
+    },
+    {
+        "id": 32,
+        "nombre": "Aplicaciones útiles para el aprendizaje",
+        "categoria": "Dispositivos móviles",
+        "stock": 12,
+        "imagen": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Descubre aplicaciones para leer, estudiar, organizarte y aprender.",
+        "precioMensual": 40
+    },
+    {
+        "id": 33,
+        "nombre": "Fotografía con teléfonos inteligentes",
+        "categoria": "Dispositivos móviles",
+        "stock": 15,
+        "imagen": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Mejora tus fotografías utilizando encuadre, luz y funciones de la cámara.",
+        "precioMensual": 45
+    },
+    {
+        "id": 34,
+        "nombre": "Escaneo de documentos con el celular",
+        "categoria": "Dispositivos móviles",
+        "stock": 20,
+        "imagen": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Digitaliza documentos y guárdalos como archivos PDF.",
+        "precioMensual": 30
+    },
+    {
+        "id": 35,
+        "nombre": "Trámites y servicios públicos por Internet",
+        "categoria": "Ciudadanía digital",
+        "stock": 25,
+        "imagen": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Conoce recomendaciones para realizar trámites digitales de forma segura.",
+        "precioMensual": 45
+    },
+    {
+        "id": 36,
+        "nombre": "Compras seguras por Internet",
+        "categoria": "Ciudadanía digital",
+        "stock": 30,
+        "imagen": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Aprende a identificar tiendas confiables y proteger tus datos al comprar.",
+        "precioMensual": 45
+    },
+    {
+        "id": 37,
+        "nombre": "Banca digital y pagos electrónicos",
+        "categoria": "Ciudadanía digital",
+        "stock": 8,
+        "imagen": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Conoce las funciones básicas de la banca digital y sus medidas de seguridad.",
+        "precioMensual": 50
+    },
+    {
+        "id": 38,
+        "nombre": "Comunicación respetuosa en entornos digitales",
+        "categoria": "Ciudadanía digital",
+        "stock": 12,
+        "imagen": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Practica normas de convivencia y respeto al comunicarte en línea.",
+        "precioMensual": 30
+    },
+    {
+        "id": 39,
+        "nombre": "Introducción a la programación con Scratch",
+        "categoria": "Programación",
+        "stock": 15,
+        "imagen": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Crea historias y juegos sencillos utilizando bloques de programación.",
+        "precioMensual": 60
+    },
+    {
+        "id": 40,
+        "nombre": "Pensamiento computacional para principiantes",
+        "categoria": "Programación",
+        "stock": 20,
+        "imagen": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Resuelve problemas mediante secuencias, patrones y pasos lógicos.",
+        "precioMensual": 55
+    },
+    {
+        "id": 41,
+        "nombre": "HTML básico para crear páginas web",
+        "categoria": "Desarrollo web",
+        "stock": 25,
+        "imagen": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Aprende la estructura de una página web utilizando etiquetas HTML.",
+        "precioMensual": 65
+    },
+    {
+        "id": 42,
+        "nombre": "CSS básico para diseñar páginas web",
+        "categoria": "Desarrollo web",
+        "stock": 30,
+        "imagen": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Da estilo a páginas web con colores, tamaños, espacios y diseños sencillos.",
+        "precioMensual": 65
+    },
+    {
+        "id": 43,
+        "nombre": "JavaScript desde cero",
+        "categoria": "Programación",
+        "stock": 8,
+        "imagen": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Conoce variables, funciones y operaciones básicas con JavaScript.",
+        "precioMensual": 70
+    },
+    {
+        "id": 44,
+        "nombre": "Introducción a las bases de datos",
+        "categoria": "Tecnología",
+        "stock": 12,
+        "imagen": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Comprende cómo se organiza la información en tablas y registros.",
+        "precioMensual": 65
+    },
+    {
+        "id": 45,
+        "nombre": "Inteligencia artificial para principiantes",
+        "categoria": "Tecnología",
+        "stock": 15,
+        "imagen": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Conoce qué es la inteligencia artificial y cómo utilizarla responsablemente.",
+        "precioMensual": 60
+    },
+    {
+        "id": 46,
+        "nombre": "Uso responsable de herramientas de IA",
+        "categoria": "Tecnología",
+        "stock": 20,
+        "imagen": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Aprende a redactar instrucciones, revisar resultados y reconocer sus límites.",
+        "precioMensual": 45
+    },
+    {
+        "id": 47,
+        "nombre": "Accesibilidad digital en páginas web",
+        "categoria": "Accesibilidad digital",
+        "stock": 25,
+        "imagen": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Conoce prácticas para crear contenidos web que puedan utilizar más personas.",
+        "precioMensual": 55
+    },
+    {
+        "id": 48,
+        "nombre": "Lectores de pantalla: primeros pasos",
+        "categoria": "Accesibilidad digital",
+        "stock": 30,
+        "imagen": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Explora cómo funcionan los lectores de pantalla y cómo navegar con ellos.",
+        "precioMensual": 50
+    },
+    {
+        "id": 49,
+        "nombre": "Herramientas digitales para estudiar",
+        "categoria": "Educación digital",
+        "stock": 8,
+        "imagen": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Utiliza recursos digitales para investigar, tomar apuntes y repasar contenidos.",
+        "precioMensual": 45
+    },
+    {
+        "id": 50,
+        "nombre": "Aprendizaje autónomo con recursos en línea",
+        "categoria": "Educación digital",
+        "stock": 12,
+        "imagen": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=900&q=80",
+        "descripcion": "Organiza tu aprendizaje y aprovecha cursos, tutoriales y bibliotecas digitales.",
+        "precioMensual": 40
+    }
+]
