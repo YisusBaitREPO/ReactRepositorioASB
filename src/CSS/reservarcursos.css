@@ -300,3 +300,880 @@
     }
 
 }
+
+
+/* CARRITO DE CURSOS */
+
+.carrito-cursos {
+    margin-top: 45px;
+    padding: 25px;
+    background: var(--celeste);
+    border: 1px solid var(--borde);
+    border-radius: 15px;
+}
+
+.carrito-cursos h2 {
+    margin-bottom: 20px;
+    color: var(--azul-oscuro);
+}
+
+.carrito-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.carrito-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px;
+    background: white;
+    border: 1px solid var(--borde);
+    border-radius: 10px;
+}
+
+.carrito-item-info {
+    flex: 1;
+    min-width: 180px;
+}
+
+.carrito-item-info h3 {
+    margin-bottom: 6px;
+    color: var(--texto);
+}
+
+.carrito-item-info p {
+    color: var(--gris);
+}
+
+.boton-quitar {
+    padding: 8px 12px;
+    border: 1px solid #b3261e;
+    border-radius: 7px;
+    background: white;
+    color: #b3261e;
+    cursor: pointer;
+}
+
+.boton-quitar:hover {
+    background: #b3261e;
+    color: white;
+}
+
+/* CONFIRMACIÓN DE OPERACIÓN */
+
+.mensaje-exito {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
+    max-width: 420px;
+    padding: 22px;
+    background: white;
+    border: 2px solid var(--azul);
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    animation: aparecerPago 0.45s ease;
+}
+
+.mensaje-exito p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.mensaje-exito button {
+    padding: 9px 16px;
+    background: var(--azul);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+@keyframes aparecerPago {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 600px) {
+
+    .carrito-cursos {
+        padding: 15px;
+    }
+
+    .carrito-item {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .mensaje-exito {
+        right: 10px;
+        left: 10px;
+        bottom: 10px;
+    }
+
+}
+
+
+/* CONTENEDOR GENERAL */
+
+.reservar-cursos {
+    padding: 40px 20px;
+}
+
+.contenedor-cursos {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contenedor-cursos > h1,
+.contenedor-cursos > p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* BUSCADOR */
+
+.buscador-cursos {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    padding: 13px;
+    margin: 25px auto;
+    border: 1px solid #DCE5EF;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* TARJETAS */
+
+.lista-cursos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 22px;
+    margin: 30px 0;
+}
+
+.tarjeta-curso {
+    border: 1px solid #DCE5EF;
+    border-radius: 12px;
+    overflow: hidden;
+    background: white;
+    transition: transform 0.2s;
+}
+
+.tarjeta-curso:hover {
+    transform: translateY(-5px);
+}
+
+.boton-curso {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    border: none;
+    background: transparent;
+    color: #263445;
+    text-align: left;
+    cursor: pointer;
+}
+
+.boton-curso img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.boton-curso h2 {
+    font-size: 19px;
+    margin: 12px 0;
+}
+
+.boton-curso p {
+    margin: 8px 0;
+}
+
+.boton-curso span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #24558A;
+    font-weight: bold;
+}
+
+/* CARRITO */
+
+.seccion-carrito {
+    margin-top: 45px;
+    padding: 25px;
+    border: 1px solid #DCE5EF;
+    border-radius: 12px;
+    background: #EAF3FC;
+}
+
+.seccion-carrito h2 {
+    margin-bottom: 20px;
+}
+
+.lista-carrito {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.producto-carrito {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 15px;
+    border-radius: 10px;
+    background: white;
+}
+
+.producto-carrito img {
+    width: 100px;
+    height: 85px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.informacion-carrito {
+    flex: 1;
+}
+
+.informacion-carrito h3,
+.informacion-carrito p {
+    margin-bottom: 7px;
+}
+
+.controles-cantidad,
+.selector-cantidad {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 10px 0;
+}
+
+.controles-cantidad button,
+.selector-cantidad button {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 6px;
+    background: #24558A;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.controles-cantidad button:disabled,
+.selector-cantidad button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.boton-eliminar {
+    padding: 9px 12px;
+    border: none;
+    border-radius: 6px;
+    background: #B83232;
+    color: white;
+    cursor: pointer;
+}
+
+.total-carrito {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.acciones-carrito {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+.acciones-carrito button,
+.boton-agregar,
+.boton-seguir {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 7px;
+    background: #24558A;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.acciones-carrito button:hover,
+.boton-agregar:hover,
+.boton-seguir:hover {
+    background: #183B63;
+}
+
+/* MODAL */
+
+.fondo-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.65);
+    overflow-y: auto;
+}
+
+.modal-curso {
+    position: relative;
+    width: 100%;
+    max-width: 550px;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 25px;
+    border-radius: 12px;
+    background: white;
+}
+
+.modal-curso h2,
+.modal-curso h3,
+.modal-curso p {
+    margin-bottom: 12px;
+}
+
+.modal-curso > img {
+    width: 100%;
+    max-height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 12px 0;
+}
+
+.cerrar-modal,
+.cerrar-mensaje {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    border: none;
+    background: transparent;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.boton-agregar,
+.boton-seguir {
+    margin: 8px 5px 0 0;
+}
+
+/* MENSAJES */
+
+.mensaje-compra {
+    position: relative;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 10px;
+    animation: aparecerMensaje 0.4s ease;
+}
+
+.mensaje-compra.exito,
+.mensaje-compra.compra {
+    background: #DDF3E6;
+    border: 1px solid #78B58D;
+    color: #183B63;
+}
+
+.mensaje-compra.error,
+.mensaje-modal.error,
+.mensaje-error {
+    color: #B83232;
+}
+
+.mensaje-modal.exito {
+    color: #267343;
+}
+
+.mensaje-compra h3 {
+    margin-bottom: 10px;
+}
+
+.sin-resultados {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 30px;
+}
+
+@keyframes aparecerMensaje {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ADAPTACIÓN A CELULARES */
+
+@media (max-width: 600px) {
+
+    .producto-carrito {
+        flex-wrap: wrap;
+    }
+
+    .producto-carrito img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .informacion-carrito {
+        min-width: 150px;
+    }
+
+    .acciones-carrito {
+        flex-direction: column;
+    }
+
+    .acciones-carrito button {
+        width: 100%;
+    }
+
+}
+
+
+/* =====================================
+   CORRECCIÓN DEL DISEÑO DE LOS CURSOS
+===================================== */
+
+.reservar-cursos .contenedor-cursos {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+/* Título */
+
+.reservar-cursos .contenedor-cursos > h1 {
+    text-align: center;
+    color: #183B63;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.reservar-cursos .contenedor-cursos > p {
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Buscador */
+
+.reservar-cursos .buscador-cursos {
+    display: block;
+    width: 100%;
+    max-width: 550px;
+    padding: 13px 15px;
+    margin: 25px auto 35px;
+    border: 1px solid #DCE5EF;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* Distribución de tarjetas */
+
+.reservar-cursos .lista-cursos {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 25px;
+    margin: 30px 0;
+}
+
+/* Tarjeta */
+
+.reservar-cursos .tarjeta-curso {
+    min-width: 0;
+    overflow: hidden;
+    border: 1px solid #DCE5EF;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07);
+}
+
+/* Botón de la tarjeta */
+
+.reservar-cursos .tarjeta-curso .boton-curso {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: white;
+    color: #263445;
+    text-align: left;
+    cursor: pointer;
+}
+
+/* Imagen */
+
+.reservar-cursos .tarjeta-curso .boton-curso img {
+    display: block;
+    width: 100% !important;
+    height: 180px !important;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Información */
+
+.reservar-cursos .boton-curso h2 {
+    font-size: 19px;
+    margin: 10px 0;
+    color: #183B63;
+}
+
+.reservar-cursos .boton-curso p {
+    font-size: 14px;
+    margin: 8px 0;
+    text-align: left;
+}
+
+.reservar-cursos .boton-curso span {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 9px 14px;
+    border-radius: 6px;
+    background: #24558A;
+    color: white;
+    font-weight: bold;
+}
+
+/* Efecto al pasar el cursor */
+
+.reservar-cursos .tarjeta-curso:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+}
+
+/* Adaptación a tablets */
+
+@media (max-width: 900px) {
+
+    .reservar-cursos .lista-cursos {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+
+}
+
+/* Adaptación a celulares */
+
+@media (max-width: 600px) {
+
+    .reservar-cursos .lista-cursos {
+        grid-template-columns: 1fr !important;
+    }
+
+}
+
+/* BOTÓN FLOTANTE DEL CARRITO */
+
+.boton-carrito-flotante {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 900;
+    padding: 15px 22px;
+    border: none;
+    border-radius: 30px;
+    background: #24558A;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.boton-carrito-flotante:hover {
+    background: #183B63;
+}
+
+.seccion-carrito {
+    scroll-margin-top: 100px;
+}
+
+
+/* =====================================
+   ADMINISTRACIÓN DE PRODUCTOS
+===================================== */
+
+.acciones-administracion {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.acciones-administracion button,
+.botones-admin button,
+.producto-admin-acciones button,
+.categoria-admin button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 7px;
+    background: var(--azul);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.acciones-administracion button:hover,
+.botones-admin button:hover,
+.producto-admin-acciones button:hover,
+.categoria-admin button:hover {
+    background: var(--azul-oscuro);
+}
+
+.panel-administracion {
+    margin: 35px 0;
+    padding: 25px;
+    background: var(--celeste);
+    border: 1px solid var(--borde);
+    border-radius: 12px;
+}
+
+.panel-administracion h2 {
+    color: var(--azul-oscuro);
+    margin-bottom: 20px;
+}
+
+.formulario-admin {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 22px;
+    margin-bottom: 30px;
+    background: white;
+    border: 1px solid var(--borde);
+    border-radius: 10px;
+}
+
+.formulario-admin h3 {
+    color: var(--azul-oscuro);
+}
+
+.campo-admin {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.campo-admin label {
+    font-weight: bold;
+}
+
+.campo-admin input,
+.campo-admin select,
+.campo-admin textarea,
+.lista-administracion input,
+.lista-administracion select {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #9AAABD;
+    border-radius: 7px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.campo-admin textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.botones-admin {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.botones-admin button:nth-child(2) {
+    background: #586779;
+}
+
+.lista-administracion {
+    margin-top: 35px;
+}
+
+.lista-administracion h3 {
+    margin-bottom: 15px;
+    color: var(--azul-oscuro);
+}
+
+.lista-administracion > input,
+.lista-administracion > select {
+    margin-bottom: 15px;
+}
+
+.tabla-administracion {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.producto-admin {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 15px;
+    background: white;
+    border: 1px solid var(--borde);
+    border-radius: 10px;
+}
+
+.producto-admin img {
+    width: 110px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.producto-admin-info {
+    flex: 1;
+}
+
+.producto-admin-info h4 {
+    color: var(--azul-oscuro);
+    margin-bottom: 5px;
+}
+
+.producto-admin-info p {
+    color: var(--gris);
+    margin: 3px 0;
+}
+
+.producto-admin-acciones {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.producto-admin-acciones button:last-child,
+.categoria-admin button:last-child {
+    background: #A52A2A;
+}
+
+.producto-admin-acciones button:last-child:hover,
+.categoria-admin button:last-child:hover {
+    background: #7C1F1F;
+}
+
+/* =====================================
+   GESTIÓN DE CATEGORÍAS
+===================================== */
+
+.gestion-categorias {
+    margin-top: 40px;
+    padding-top: 25px;
+    border-top: 2px solid var(--borde);
+}
+
+.lista-categorias-admin {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.categoria-admin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 13px 16px;
+    background: white;
+    border: 1px solid var(--borde);
+    border-radius: 8px;
+}
+
+.categoria-admin span {
+    font-weight: bold;
+    color: var(--texto);
+}
+
+.categoria-admin div {
+    display: flex;
+    gap: 8px;
+}
+
+/* =====================================
+   CATÁLOGO Y FILTROS
+===================================== */
+
+.titulo-catalogo {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: var(--azul-oscuro);
+}
+
+.filtro-categoria-cursos {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    margin: 15px 0 25px;
+    padding: 12px;
+    border: 1px solid var(--borde);
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+/* =====================================
+   RESPONSIVE
+===================================== */
+
+@media (max-width: 700px) {
+
+    .producto-admin {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .producto-admin img {
+        width: 100%;
+        height: 170px;
+    }
+
+    .producto-admin-acciones {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .categoria-admin {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .categoria-admin div {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .panel-administracion,
+    .producto-admin,
+    .categoria-admin {
+        animation: none !important;
+        transition: none !important;
+    }
+
+}

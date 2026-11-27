@@ -2,7 +2,7 @@
 {
   "menu": {
     "inicio": "Accueil",
-    "cursos": "Cours",
+    "cursos": "Compétences de base",
     "nosotros": "À propos",
     "transparencia": "Transparence",
     "contacto": "Contact",
@@ -37,7 +37,8 @@
     "curso3Descripcion": "Apprenez à utiliser le courrier électronique et d'autres outils numériques.",
     "curso4Titulo": "Sécurité numérique",
     "curso4Descripcion": "Découvrez comment protéger vos données personnelles et naviguer en toute sécurité.",
-    "consultar": "Se renseigner sur ce cours"
+    "consultar": "Se renseigner sur ce cours",
+    "explorar": "Explorer nos cours"
   },
   "nosotros": {
     "subtitulo": "DÉCOUVREZ NOTRE PLATEFORME",
@@ -109,5 +110,36 @@
   },
   "general": {
     "saltarContenido": "Passer au contenu principal"
-  }
+  },
+  "reservarCursos": {
+      "titulo": "Découvrez nos cours",
+      "descripcion": "Trouvez des cours numériques pour continuer à apprendre.",
+      "buscar": "Rechercher des cours...",
+      "sinResultados": "Aucun résultat trouvé",
+      "cargando": "Chargement des cours...",
+      "error": "Impossible de charger les cours.",
+      "categoria": "Catégorie",
+      "stock": "Disponibles",
+      "precio": "Prix mensuel",
+      "verDetalles": "Voir les détails",
+      "carrito": "Votre panier",
+      "carritoVacio": "Vous n'avez pas encore ajouté de cours.",
+      "agregar": "Ajouter au panier",
+      "seguirExplorando": "Continuer à explorer",
+      "cantidad": "Quantité",
+      "disminuir": "Diminuer la quantité",
+      "aumentar": "Augmenter la quantité",
+      "eliminar": "Supprimer",
+      "total": "Total",
+      "pagar": "Payer maintenant",
+      "invitado": "Continuer en tant qu'invité",
+      "sinStock": "Le stock disponible est insuffisant.",
+      "agregado": "Cours ajouté au panier.",
+      "pagoSimulado": "Achat simulé effectué avec succès !",
+      "confirmacion": "Votre commande a été enregistrée avec succès.",
+      "fecha": "Date",
+      "hora": "Heure",
+      "cerrar": "Fermer",
+      "detalle": "Détails du cours"
+}
 }

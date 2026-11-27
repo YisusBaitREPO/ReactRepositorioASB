@@ -6,7 +6,19 @@
         "stock": 8,
         "imagen": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Aprende qué es la tecnología digital y cómo utilizar dispositivos y servicios básicos.",
-        "precioMensual": 45
+        "precioMensual": 45,
+        "traducciones": {
+            "en": {
+                "nombre": "Digital literacy from scratch",
+                "categoria": "Digital literacy",
+                "descripcion": "Learn what digital technology is and how to use basic devices and services."
+            },
+            "fr": {
+                "nombre": "Initiation à la culture numérique",
+                "categoria": "Culture numérique",
+                "descripcion": "Découvrez ce qu’est la technologie numérique et apprenez à utiliser des appareils et services de base."
+            }
+        }
     },
     {
         "id": 2,
@@ -15,7 +27,19 @@
         "stock": 12,
         "imagen": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Conoce las partes de una computadora y aprende a utilizarla paso a paso.",
-        "precioMensual": 50
+        "precioMensual": 50,
+        "traducciones": {
+            "en": {
+                "nombre": "Computer skills for beginners",
+                "categoria": "Computing",
+                "descripcion": "Learn about the parts of a computer and how to use it step by step."
+            },
+            "fr": {
+                "nombre": "Utiliser un ordinateur pour débutants",
+                "categoria": "Informatique",
+                "descripcion": "Découvrez les composants d’un ordinateur et apprenez à l’utiliser étape par étape."
+            }
+        }
     },
     {
         "id": 3,
@@ -24,7 +48,19 @@
         "stock": 15,
         "imagen": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Aprende a utilizar el escritorio, las ventanas, los archivos y la configuración de Windows.",
-        "precioMensual": 55
+        "precioMensual": 55,
+        "traducciones": {
+            "en": {
+                "nombre": "Windows operating system basics",
+                "categoria": "Computing",
+                "descripcion": "Learn to use the desktop, windows, files and Windows settings."
+            },
+            "fr": {
+                "nombre": "Les bases du système d’exploitation Windows",
+                "categoria": "Informatique",
+                "descripcion": "Apprenez à utiliser le bureau, les fenêtres, les fichiers et les paramètres de Windows."
+            }
+        }
     },
     {
         "id": 4,
@@ -33,7 +69,19 @@
         "stock": 20,
         "imagen": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Crea, organiza, mueve, copia y encuentra archivos y carpetas en tu equipo.",
-        "precioMensual": 35
+        "precioMensual": 35,
+        "traducciones": {
+            "en": {
+                "nombre": "Organizing files and folders",
+                "categoria": "Computing",
+                "descripcion": "Create, organize, move, copy and find files and folders on your computer."
+            },
+            "fr": {
+                "nombre": "Organiser les fichiers et les dossiers",
+                "categoria": "Informatique",
+                "descripcion": "Créez, organisez, déplacez, copiez et retrouvez des fichiers et des dossiers sur votre ordinateur."
+            }
+        }
     },
     {
         "id": 5,
@@ -42,7 +90,19 @@
         "stock": 25,
         "imagen": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Ahorra tiempo con combinaciones de teclas útiles para las tareas diarias.",
-        "precioMensual": 30
+        "precioMensual": 30,
+        "traducciones": {
+            "en": {
+                "nombre": "Essential keyboard shortcuts",
+                "categoria": "Computing",
+                "descripcion": "Save time with useful key combinations for everyday tasks."
+            },
+            "fr": {
+                "nombre": "Raccourcis clavier essentiels",
+                "categoria": "Informatique",
+                "descripcion": "Gagnez du temps grâce à des combinaisons de touches utiles pour les tâches quotidiennes."
+            }
+        }
     },
     {
         "id": 6,
@@ -51,7 +111,19 @@
         "stock": 30,
         "imagen": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Crea documentos, aplica formato, inserta imágenes y organiza textos.",
-        "precioMensual": 50
+        "precioMensual": 50,
+        "traducciones": {
+            "en": {
+                "nombre": "Introduction to Microsoft Word",
+                "categoria": "Office tools",
+                "descripcion": "Create documents, format text, insert images and organize content."
+            },
+            "fr": {
+                "nombre": "Introduction à Microsoft Word",
+                "categoria": "Bureautique",
+                "descripcion": "Créez des documents, mettez le texte en forme, insérez des images et organisez le contenu."
+            }
+        }
     },
     {
         "id": 7,
@@ -60,7 +132,19 @@
         "stock": 8,
         "imagen": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Registra datos, utiliza fórmulas sencillas y crea tablas en hojas de cálculo.",
-        "precioMensual": 60
+        "precioMensual": 60,
+        "traducciones": {
+            "en": {
+                "nombre": "Spreadsheets with basic Excel",
+                "categoria": "Office tools",
+                "descripcion": "Enter data, use simple formulas and create tables in spreadsheets."
+            },
+            "fr": {
+                "nombre": "Tableurs avec Excel : les bases",
+                "categoria": "Bureautique",
+                "descripcion": "Saisissez des données, utilisez des formules simples et créez des tableaux dans un tableur."
+            }
+        }
     },
     {
         "id": 8,
@@ -69,7 +153,19 @@
         "stock": 12,
         "imagen": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Diseña presentaciones claras con diapositivas, imágenes y elementos visuales.",
-        "precioMensual": 50
+        "precioMensual": 50,
+        "traducciones": {
+            "en": {
+                "nombre": "Presentations with PowerPoint",
+                "categoria": "Office tools",
+                "descripcion": "Create clear presentations with slides, images and visual elements."
+            },
+            "fr": {
+                "nombre": "Créer des présentations avec PowerPoint",
+                "categoria": "Bureautique",
+                "descripcion": "Concevez des présentations claires avec des diapositives, des images et des éléments visuels."
+            }
+        }
     },
     {
         "id": 9,
@@ -78,7 +174,19 @@
         "stock": 15,
         "imagen": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Crea documentos en línea y trabaja en ellos con otras personas.",
-        "precioMensual": 45
+        "precioMensual": 45,
+        "traducciones": {
+            "en": {
+                "nombre": "Collaborative documents with Google Docs",
+                "categoria": "Office tools",
+                "descripcion": "Create online documents and work on them with other people."
+            },
+            "fr": {
+                "nombre": "Documents collaboratifs avec Google Docs",
+                "categoria": "Bureautique",
+                "descripcion": "Créez des documents en ligne et travaillez dessus avec d’autres personnes."
+            }
+        }
     },
     {
         "id": 10,
@@ -87,7 +195,19 @@
         "stock": 20,
         "imagen": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Organiza información y realiza cálculos básicos desde el navegador.",
-        "precioMensual": 50
+        "precioMensual": 50,
+        "traducciones": {
+            "en": {
+                "nombre": "Spreadsheets with Google Sheets",
+                "categoria": "Office tools",
+                "descripcion": "Organize information and perform basic calculations in your browser."
+            },
+            "fr": {
+                "nombre": "Tableurs avec Google Sheets",
+                "categoria": "Bureautique",
+                "descripcion": "Organisez des informations et effectuez des calculs de base depuis votre navigateur."
+            }
+        }
     },
     {
         "id": 11,
@@ -96,7 +216,19 @@
         "stock": 25,
         "imagen": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Aprende a navegar, reconocer sitios confiables y evitar páginas sospechosas.",
-        "precioMensual": 40
+        "precioMensual": 40,
+        "traducciones": {
+            "en": {
+                "nombre": "Safe Internet browsing",
+                "categoria": "Internet",
+                "descripcion": "Learn to browse the web, identify trustworthy websites and avoid suspicious pages."
+            },
+            "fr": {
+                "nombre": "Naviguer sur Internet en toute sécurité",
+                "categoria": "Internet",
+                "descripcion": "Apprenez à naviguer, à reconnaître les sites fiables et à éviter les pages suspectes."
+            }
+        }
     },
     {
         "id": 12,
@@ -105,7 +237,19 @@
         "stock": 30,
         "imagen": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Encuentra información útil utilizando palabras clave y filtros de búsqueda.",
-        "precioMensual": 35
+        "precioMensual": 35,
+        "traducciones": {
+            "en": {
+                "nombre": "Effective information searching",
+                "categoria": "Internet",
+                "descripcion": "Find useful information using keywords and search filters."
+            },
+            "fr": {
+                "nombre": "Rechercher efficacement des informations",
+                "categoria": "Internet",
+                "descripcion": "Trouvez des informations utiles à l’aide de mots-clés et de filtres de recherche."
+            }
+        }
     },
     {
         "id": 13,
@@ -114,7 +258,19 @@
         "stock": 8,
         "imagen": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Configura tus perfiles, comparte con responsabilidad y cuida tu privacidad.",
-        "precioMensual": 40
+        "precioMensual": 40,
+        "traducciones": {
+            "en": {
+                "nombre": "Responsible use of social media",
+                "categoria": "Digital communication",
+                "descripcion": "Set up your profiles, share responsibly and protect your privacy."
+            },
+            "fr": {
+                "nombre": "Utiliser les réseaux sociaux de manière responsable",
+                "categoria": "Communication numérique",
+                "descripcion": "Configurez vos profils, partagez de manière responsable et protégez votre vie privée."
+            }
+        }
     },
     {
         "id": 14,
@@ -123,7 +279,19 @@
         "stock": 12,
         "imagen": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Crea y administra una cuenta de correo, envía mensajes y adjunta archivos.",
-        "precioMensual": 35
+        "precioMensual": 35,
+        "traducciones": {
+            "en": {
+                "nombre": "Email from scratch",
+                "categoria": "Digital communication",
+                "descripcion": "Create and manage an email account, send messages and attach files."
+            },
+            "fr": {
+                "nombre": "Le courrier électronique de zéro",
+                "categoria": "Communication numérique",
+                "descripcion": "Créez et gérez un compte de messagerie, envoyez des messages et joignez des fichiers."
+            }
+        }
     },
     {
         "id": 15,
@@ -132,7 +300,19 @@
         "stock": 15,
         "imagen": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Participa en reuniones virtuales y aprende a utilizar cámara, micrófono y chat.",
-        "precioMensual": 40
+        "precioMensual": 40,
+        "traducciones": {
+            "en": {
+                "nombre": "Video calls for studying and working",
+                "categoria": "Digital communication",
+                "descripcion": "Join online meetings and learn to use the camera, microphone and chat."
+            },
+            "fr": {
+                "nombre": "Les appels vidéo pour étudier et travailler",
+                "categoria": "Communication numérique",
+                "descripcion": "Participez à des réunions virtuelles et apprenez à utiliser la caméra, le microphone et le chat."
+            }
+        }
     },
     {
         "id": 16,
@@ -141,7 +321,19 @@
         "stock": 20,
         "imagen": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Guarda, organiza y comparte archivos en la nube.",
-        "precioMensual": 45
+        "precioMensual": 45,
+        "traducciones": {
+            "en": {
+                "nombre": "Cloud storage with Google Drive",
+                "categoria": "Digital tools",
+                "descripcion": "Store, organize and share files in the cloud."
+            },
+            "fr": {
+                "nombre": "Stockage dans le cloud avec Google Drive",
+                "categoria": "Outils numériques",
+                "descripcion": "Stockez, organisez et partagez des fichiers dans le cloud."
+            }
+        }
     },
     {
         "id": 17,
@@ -150,7 +342,19 @@
         "stock": 25,
         "imagen": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Aprende a compartir documentos y administrar permisos de acceso.",
-        "precioMensual": 30
+        "precioMensual": 30,
+        "traducciones": {
+            "en": {
+                "nombre": "Sharing files and links correctly",
+                "categoria": "Digital tools",
+                "descripcion": "Learn to share documents and manage access permissions."
+            },
+            "fr": {
+                "nombre": "Partager correctement des fichiers et des liens",
+                "categoria": "Outils numériques",
+                "descripcion": "Apprenez à partager des documents et à gérer les autorisations d’accès."
+            }
+        }
     },
     {
         "id": 18,
@@ -159,7 +363,19 @@
         "stock": 30,
         "imagen": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Organiza tus actividades, crea recordatorios y administra tu tiempo.",
-        "precioMensual": 40
+        "precioMensual": 40,
+        "traducciones": {
+            "en": {
+                "nombre": "Digital calendars and personal organization",
+                "categoria": "Productivity",
+                "descripcion": "Organize your activities, create reminders and manage your time."
+            },
+            "fr": {
+                "nombre": "Calendriers numériques et organisation personnelle",
+                "categoria": "Productivité",
+                "descripcion": "Organisez vos activités, créez des rappels et gérez votre temps."
+            }
+        }
     },
     {
         "id": 19,
@@ -168,7 +384,19 @@
         "stock": 8,
         "imagen": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Planifica actividades y realiza seguimiento de tareas con aplicaciones digitales.",
-        "precioMensual": 45
+        "precioMensual": 45,
+        "traducciones": {
+            "en": {
+                "nombre": "Task management with digital tools",
+                "categoria": "Productivity",
+                "descripcion": "Plan activities and track tasks with digital applications."
+            },
+            "fr": {
+                "nombre": "Gérer ses tâches avec des outils numériques",
+                "categoria": "Productivité",
+                "descripcion": "Planifiez vos activités et suivez vos tâches à l’aide d’applications numériques."
+            }
+        }
     },
     {
         "id": 20,
@@ -177,7 +405,19 @@
         "stock": 12,
         "imagen": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Crea diseños sencillos para publicaciones, invitaciones y materiales educativos.",
-        "precioMensual": 55
+        "precioMensual": 55,
+        "traducciones": {
+            "en": {
+                "nombre": "Basic image editing with Canva",
+                "categoria": "Digital design",
+                "descripcion": "Create simple designs for posts, invitations and educational materials."
+            },
+            "fr": {
+                "nombre": "Retouche d’images de base avec Canva",
+                "categoria": "Design numérique",
+                "descripcion": "Créez des designs simples pour des publications, des invitations et des supports pédagogiques."
+            }
+        }
     },
     {
         "id": 21,
@@ -186,7 +426,19 @@
         "stock": 15,
         "imagen": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Elabora presentaciones atractivas utilizando plantillas y recursos gráficos.",
-        "precioMensual": 55
+        "precioMensual": 55,
+        "traducciones": {
+            "en": {
+                "nombre": "Designing visual presentations with Canva",
+                "categoria": "Digital design",
+                "descripcion": "Create engaging presentations using templates and graphic resources."
+            },
+            "fr": {
+                "nombre": "Créer des présentations visuelles avec Canva",
+                "categoria": "Design numérique",
+                "descripcion": "Réalisez des présentations attrayantes à l’aide de modèles et de ressources graphiques."
+            }
+        }
     },
     {
         "id": 22,
@@ -195,7 +447,19 @@
         "stock": 20,
         "imagen": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Recorta, ajusta colores y mejora fotografías con herramientas sencillas.",
-        "precioMensual": 45
+        "precioMensual": 45,
+        "traducciones": {
+            "en": {
+                "nombre": "Basic photo editing",
+                "categoria": "Digital design",
+                "descripcion": "Crop, adjust colors and improve photos with simple tools."
+            },
+            "fr": {
+                "nombre": "Retouche photo de base",
+                "categoria": "Design numérique",
+                "descripcion": "Recadrez, ajustez les couleurs et améliorez vos photos avec des outils simples."
+            }
+        }
     },
     {
         "id": 23,
@@ -204,7 +468,19 @@
         "stock": 25,
         "imagen": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Resume información mediante textos breves, iconos y elementos visuales.",
-        "precioMensual": 50
+        "precioMensual": 50,
+        "traducciones": {
+            "en": {
+                "nombre": "Creating educational infographics",
+                "categoria": "Digital design",
+                "descripcion": "Summarize information using short text, icons and visual elements."
+            },
+            "fr": {
+                "nombre": "Créer des infographies pédagogiques",
+                "categoria": "Design numérique",
+                "descripcion": "Résumez des informations à l’aide de textes courts, d’icônes et d’éléments visuels."
+            }
+        }
     },
     {
         "id": 24,
@@ -213,7 +489,19 @@
         "stock": 30,
         "imagen": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Conoce principios básicos de composición, color, tipografía y diseño.",
-        "precioMensual": 60
+        "precioMensual": 60,
+        "traducciones": {
+            "en": {
+                "nombre": "Introduction to digital graphic design",
+                "categoria": "Digital design",
+                "descripcion": "Learn the basic principles of composition, color, typography and design."
+            },
+            "fr": {
+                "nombre": "Introduction au graphisme numérique",
+                "categoria": "Design numérique",
+                "descripcion": "Découvrez les principes de base de la composition, de la couleur, de la typographie et du design."
+            }
+        }
     },
     {
         "id": 25,
@@ -222,7 +510,19 @@
         "stock": 8,
         "imagen": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Crea contraseñas seguras y aprende a utilizar gestores de contraseñas.",
-        "precioMensual": 40
+        "precioMensual": 40,
+        "traducciones": {
+            "en": {
+                "nombre": "Password security",
+                "categoria": "Cybersecurity",
+                "descripcion": "Create strong passwords and learn to use password managers."
+            },
+            "fr": {
+                "nombre": "Sécurité des mots de passe",
+                "categoria": "Cybersécurité",
+                "descripcion": "Créez des mots de passe robustes et apprenez à utiliser des gestionnaires de mots de passe."
+            }
+        }
     },
     {
         "id": 26,
@@ -231,7 +531,19 @@
         "stock": 12,
         "imagen": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Identifica señales de phishing, enlaces sospechosos y posibles estafas.",
-        "precioMensual": 45
+        "precioMensual": 45,
+        "traducciones": {
+            "en": {
+                "nombre": "Recognizing fraudulent emails and messages",
+                "categoria": "Cybersecurity",
+                "descripcion": "Identify signs of phishing, suspicious links and possible scams."
+            },
+            "fr": {
+                "nombre": "Reconnaître les courriels et messages frauduleux",
+                "categoria": "Cybersécurité",
+                "descripcion": "Identifiez les signes d’hameçonnage, les liens suspects et les tentatives d’escroquerie."
+            }
+        }
     },
     {
         "id": 27,
@@ -240,7 +552,19 @@
         "stock": 15,
         "imagen": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Configura la privacidad de tus cuentas y protege tu información personal.",
-        "precioMensual": 45
+        "precioMensual": 45,
+        "traducciones": {
+            "en": {
+                "nombre": "Privacy and personal data protection",
+                "categoria": "Cybersecurity",
+                "descripcion": "Configure account privacy settings and protect your personal information."
+            },
+            "fr": {
+                "nombre": "Vie privée et protection des données personnelles",
+                "categoria": "Cybersécurité",
+                "descripcion": "Configurez la confidentialité de vos comptes et protégez vos informations personnelles."
+            }
+        }
     },
     {
         "id": 28,
@@ -249,7 +573,19 @@
         "stock": 20,
         "imagen": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Añade una capa adicional de seguridad a tus cuentas digitales.",
-        "precioMensual": 35
+        "precioMensual": 35,
+        "traducciones": {
+            "en": {
+                "nombre": "Two-factor authentication",
+                "categoria": "Cybersecurity",
+                "descripcion": "Add an extra layer of security to your digital accounts."
+            },
+            "fr": {
+                "nombre": "Authentification à deux facteurs",
+                "categoria": "Cybersécurité",
+                "descripcion": "Ajoutez une couche de sécurité supplémentaire à vos comptes numériques."
+            }
+        }
     },
     {
         "id": 29,
@@ -258,7 +594,19 @@
         "stock": 25,
         "imagen": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Realiza respaldos de tus archivos importantes y aprende a recuperarlos.",
-        "precioMensual": 40
+        "precioMensual": 40,
+        "traducciones": {
+            "en": {
+                "nombre": "Backups for beginners",
+                "categoria": "Cybersecurity",
+                "descripcion": "Back up your important files and learn how to restore them."
+            },
+            "fr": {
+                "nombre": "Les sauvegardes pour débutants",
+                "categoria": "Cybersécurité",
+                "descripcion": "Sauvegardez vos fichiers importants et apprenez à les restaurer."
+            }
+        }
     },
     {
         "id": 30,
@@ -267,7 +615,19 @@
         "stock": 30,
         "imagen": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Configura bloqueos, permisos y actualizaciones para proteger tu celular.",
-        "precioMensual": 45
+        "precioMensual": 45,
+        "traducciones": {
+            "en": {
+                "nombre": "Safe use of mobile devices",
+                "categoria": "Cybersecurity",
+                "descripcion": "Configure locks, permissions and updates to protect your phone."
+            },
+            "fr": {
+                "nombre": "Utiliser les appareils mobiles en toute sécurité",
+                "categoria": "Cybersécurité",
+                "descripcion": "Configurez les verrouillages, les autorisations et les mises à jour pour protéger votre téléphone."
+            }
+        }
     },
     {
         "id": 31,
@@ -276,7 +636,19 @@
         "stock": 8,
         "imagen": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Aprende a configurar tu teléfono, instalar aplicaciones y administrar ajustes.",
-        "precioMensual": 45
+        "precioMensual": 45,
+        "traducciones": {
+            "en": {
+                "nombre": "Android basics",
+                "categoria": "Mobile devices",
+                "descripcion": "Learn to set up your phone, install apps and manage settings."
+            },
+            "fr": {
+                "nombre": "Les bases d’Android",
+                "categoria": "Appareils mobiles",
+                "descripcion": "Apprenez à configurer votre téléphone, à installer des applications et à gérer les paramètres."
+            }
+        }
     },
     {
         "id": 32,
@@ -285,7 +657,19 @@
         "stock": 12,
         "imagen": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Descubre aplicaciones para leer, estudiar, organizarte y aprender.",
-        "precioMensual": 40
+        "precioMensual": 40,
+        "traducciones": {
+            "en": {
+                "nombre": "Useful learning apps",
+                "categoria": "Mobile devices",
+                "descripcion": "Discover apps for reading, studying, organizing and learning."
+            },
+            "fr": {
+                "nombre": "Applications utiles pour apprendre",
+                "categoria": "Appareils mobiles",
+                "descripcion": "Découvrez des applications pour lire, étudier, vous organiser et apprendre."
+            }
+        }
     },
     {
         "id": 33,
@@ -294,7 +678,19 @@
         "stock": 15,
         "imagen": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Mejora tus fotografías utilizando encuadre, luz y funciones de la cámara.",
-        "precioMensual": 45
+        "precioMensual": 45,
+        "traducciones": {
+            "en": {
+                "nombre": "Smartphone photography",
+                "categoria": "Mobile devices",
+                "descripcion": "Improve your photos using framing, lighting and camera features."
+            },
+            "fr": {
+                "nombre": "Photographie avec un smartphone",
+                "categoria": "Appareils mobiles",
+                "descripcion": "Améliorez vos photos grâce au cadrage, à la lumière et aux fonctions de l’appareil photo."
+            }
+        }
     },
     {
         "id": 34,
@@ -303,7 +699,19 @@
         "stock": 20,
         "imagen": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Digitaliza documentos y guárdalos como archivos PDF.",
-        "precioMensual": 30
+        "precioMensual": 30,
+        "traducciones": {
+            "en": {
+                "nombre": "Scanning documents with your phone",
+                "categoria": "Mobile devices",
+                "descripcion": "Digitize documents and save them as PDF files."
+            },
+            "fr": {
+                "nombre": "Scanner des documents avec son téléphone",
+                "categoria": "Appareils mobiles",
+                "descripcion": "Numérisez des documents et enregistrez-les au format PDF."
+            }
+        }
     },
     {
         "id": 35,
@@ -312,7 +720,19 @@
         "stock": 25,
         "imagen": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Conoce recomendaciones para realizar trámites digitales de forma segura.",
-        "precioMensual": 45
+        "precioMensual": 45,
+        "traducciones": {
+            "en": {
+                "nombre": "Online public services and procedures",
+                "categoria": "Digital citizenship",
+                "descripcion": "Learn how to complete online procedures safely."
+            },
+            "fr": {
+                "nombre": "Démarches et services publics en ligne",
+                "categoria": "Citoyenneté numérique",
+                "descripcion": "Découvrez des conseils pour effectuer des démarches en ligne en toute sécurité."
+            }
+        }
     },
     {
         "id": 36,
@@ -321,7 +741,19 @@
         "stock": 30,
         "imagen": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Aprende a identificar tiendas confiables y proteger tus datos al comprar.",
-        "precioMensual": 45
+        "precioMensual": 45,
+        "traducciones": {
+            "en": {
+                "nombre": "Safe online shopping",
+                "categoria": "Digital citizenship",
+                "descripcion": "Learn to identify trustworthy stores and protect your data when shopping."
+            },
+            "fr": {
+                "nombre": "Achats en ligne en toute sécurité",
+                "categoria": "Citoyenneté numérique",
+                "descripcion": "Apprenez à reconnaître les boutiques fiables et à protéger vos données lors de vos achats."
+            }
+        }
     },
     {
         "id": 37,
@@ -330,7 +762,19 @@
         "stock": 8,
         "imagen": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Conoce las funciones básicas de la banca digital y sus medidas de seguridad.",
-        "precioMensual": 50
+        "precioMensual": 50,
+        "traducciones": {
+            "en": {
+                "nombre": "Digital banking and electronic payments",
+                "categoria": "Digital citizenship",
+                "descripcion": "Learn the basic features of digital banking and its security measures."
+            },
+            "fr": {
+                "nombre": "Banque numérique et paiements électroniques",
+                "categoria": "Citoyenneté numérique",
+                "descripcion": "Découvrez les fonctions de base des services bancaires numériques et leurs mesures de sécurité."
+            }
+        }
     },
     {
         "id": 38,
@@ -339,7 +783,19 @@
         "stock": 12,
         "imagen": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Practica normas de convivencia y respeto al comunicarte en línea.",
-        "precioMensual": 30
+        "precioMensual": 30,
+        "traducciones": {
+            "en": {
+                "nombre": "Respectful communication in digital spaces",
+                "categoria": "Digital citizenship",
+                "descripcion": "Practice respectful behavior and good communication online."
+            },
+            "fr": {
+                "nombre": "Communiquer avec respect dans les espaces numériques",
+                "categoria": "Citoyenneté numérique",
+                "descripcion": "Adoptez des règles de savoir-vivre et de respect lorsque vous communiquez en ligne."
+            }
+        }
     },
     {
         "id": 39,
@@ -348,7 +804,19 @@
         "stock": 15,
         "imagen": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Crea historias y juegos sencillos utilizando bloques de programación.",
-        "precioMensual": 60
+        "precioMensual": 60,
+        "traducciones": {
+            "en": {
+                "nombre": "Introduction to programming with Scratch",
+                "categoria": "Programming",
+                "descripcion": "Create simple stories and games using programming blocks."
+            },
+            "fr": {
+                "nombre": "Introduction à la programmation avec Scratch",
+                "categoria": "Programmation",
+                "descripcion": "Créez des histoires et des jeux simples à l’aide de blocs de programmation."
+            }
+        }
     },
     {
         "id": 40,
@@ -357,7 +825,19 @@
         "stock": 20,
         "imagen": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Resuelve problemas mediante secuencias, patrones y pasos lógicos.",
-        "precioMensual": 55
+        "precioMensual": 55,
+        "traducciones": {
+            "en": {
+                "nombre": "Computational thinking for beginners",
+                "categoria": "Programming",
+                "descripcion": "Solve problems using sequences, patterns and logical steps."
+            },
+            "fr": {
+                "nombre": "La pensée informatique pour débutants",
+                "categoria": "Programmation",
+                "descripcion": "Résolvez des problèmes à l’aide de séquences, de motifs et d’étapes logiques."
+            }
+        }
     },
     {
         "id": 41,
@@ -366,7 +846,19 @@
         "stock": 25,
         "imagen": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Aprende la estructura de una página web utilizando etiquetas HTML.",
-        "precioMensual": 65
+        "precioMensual": 65,
+        "traducciones": {
+            "en": {
+                "nombre": "HTML basics for creating web pages",
+                "categoria": "Web development",
+                "descripcion": "Learn the structure of a web page using HTML tags."
+            },
+            "fr": {
+                "nombre": "Les bases du HTML pour créer des pages web",
+                "categoria": "Développement web",
+                "descripcion": "Apprenez la structure d’une page web à l’aide des balises HTML."
+            }
+        }
     },
     {
         "id": 42,
@@ -375,7 +867,19 @@
         "stock": 30,
         "imagen": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Da estilo a páginas web con colores, tamaños, espacios y diseños sencillos.",
-        "precioMensual": 65
+        "precioMensual": 65,
+        "traducciones": {
+            "en": {
+                "nombre": "CSS basics for styling web pages",
+                "categoria": "Web development",
+                "descripcion": "Style web pages with colors, sizes, spacing and simple layouts."
+            },
+            "fr": {
+                "nombre": "Les bases du CSS pour concevoir des pages web",
+                "categoria": "Développement web",
+                "descripcion": "Mettez en forme des pages web avec des couleurs, des tailles, des espacements et des mises en page simples."
+            }
+        }
     },
     {
         "id": 43,
@@ -384,7 +888,19 @@
         "stock": 8,
         "imagen": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Conoce variables, funciones y operaciones básicas con JavaScript.",
-        "precioMensual": 70
+        "precioMensual": 70,
+        "traducciones": {
+            "en": {
+                "nombre": "JavaScript from scratch",
+                "categoria": "Programming",
+                "descripcion": "Learn about variables, functions and basic operations in JavaScript."
+            },
+            "fr": {
+                "nombre": "JavaScript de zéro",
+                "categoria": "Programmation",
+                "descripcion": "Découvrez les variables, les fonctions et les opérations de base en JavaScript."
+            }
+        }
     },
     {
         "id": 44,
@@ -393,7 +909,19 @@
         "stock": 12,
         "imagen": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Comprende cómo se organiza la información en tablas y registros.",
-        "precioMensual": 65
+        "precioMensual": 65,
+        "traducciones": {
+            "en": {
+                "nombre": "Introduction to databases",
+                "categoria": "Technology",
+                "descripcion": "Understand how information is organized into tables and records."
+            },
+            "fr": {
+                "nombre": "Introduction aux bases de données",
+                "categoria": "Technologie",
+                "descripcion": "Comprenez comment les informations sont organisées en tables et en enregistrements."
+            }
+        }
     },
     {
         "id": 45,
@@ -402,7 +930,19 @@
         "stock": 15,
         "imagen": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Conoce qué es la inteligencia artificial y cómo utilizarla responsablemente.",
-        "precioMensual": 60
+        "precioMensual": 60,
+        "traducciones": {
+            "en": {
+                "nombre": "Artificial intelligence for beginners",
+                "categoria": "Technology",
+                "descripcion": "Learn what artificial intelligence is and how to use it responsibly."
+            },
+            "fr": {
+                "nombre": "L’intelligence artificielle pour débutants",
+                "categoria": "Technologie",
+                "descripcion": "Découvrez ce qu’est l’intelligence artificielle et comment l’utiliser de manière responsable."
+            }
+        }
     },
     {
         "id": 46,
@@ -411,7 +951,19 @@
         "stock": 20,
         "imagen": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Aprende a redactar instrucciones, revisar resultados y reconocer sus límites.",
-        "precioMensual": 45
+        "precioMensual": 45,
+        "traducciones": {
+            "en": {
+                "nombre": "Responsible use of AI tools",
+                "categoria": "Technology",
+                "descripcion": "Learn to write prompts, review results and recognize their limitations."
+            },
+            "fr": {
+                "nombre": "Utiliser les outils d’IA de manière responsable",
+                "categoria": "Technologie",
+                "descripcion": "Apprenez à rédiger des consignes, à vérifier les résultats et à reconnaître les limites de ces outils."
+            }
+        }
     },
     {
         "id": 47,
@@ -420,7 +972,19 @@
         "stock": 25,
         "imagen": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Conoce prácticas para crear contenidos web que puedan utilizar más personas.",
-        "precioMensual": 55
+        "precioMensual": 55,
+        "traducciones": {
+            "en": {
+                "nombre": "Digital accessibility on websites",
+                "categoria": "Digital accessibility",
+                "descripcion": "Learn practices for creating web content that more people can use."
+            },
+            "fr": {
+                "nombre": "Accessibilité numérique des sites web",
+                "categoria": "Accessibilité numérique",
+                "descripcion": "Découvrez des pratiques pour créer des contenus web accessibles au plus grand nombre."
+            }
+        }
     },
     {
         "id": 48,
@@ -429,7 +993,19 @@
         "stock": 30,
         "imagen": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Explora cómo funcionan los lectores de pantalla y cómo navegar con ellos.",
-        "precioMensual": 50
+        "precioMensual": 50,
+        "traducciones": {
+            "en": {
+                "nombre": "Screen readers: getting started",
+                "categoria": "Digital accessibility",
+                "descripcion": "Explore how screen readers work and how to navigate with them."
+            },
+            "fr": {
+                "nombre": "Lecteurs d’écran : premiers pas",
+                "categoria": "Accessibilité numérique",
+                "descripcion": "Découvrez le fonctionnement des lecteurs d’écran et apprenez à naviguer avec eux."
+            }
+        }
     },
     {
         "id": 49,
@@ -438,7 +1014,19 @@
         "stock": 8,
         "imagen": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Utiliza recursos digitales para investigar, tomar apuntes y repasar contenidos.",
-        "precioMensual": 45
+        "precioMensual": 45,
+        "traducciones": {
+            "en": {
+                "nombre": "Digital tools for studying",
+                "categoria": "Digital education",
+                "descripcion": "Use digital resources to research, take notes and review learning materials."
+            },
+            "fr": {
+                "nombre": "Outils numériques pour étudier",
+                "categoria": "Éducation numérique",
+                "descripcion": "Utilisez des ressources numériques pour faire des recherches, prendre des notes et réviser."
+            }
+        }
     },
     {
         "id": 50,
@@ -447,6 +1035,18 @@
         "stock": 12,
         "imagen": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=900&q=80",
         "descripcion": "Organiza tu aprendizaje y aprovecha cursos, tutoriales y bibliotecas digitales.",
-        "precioMensual": 40
+        "precioMensual": 40,
+        "traducciones": {
+            "en": {
+                "nombre": "Self-directed learning with online resources",
+                "categoria": "Digital education",
+                "descripcion": "Organize your learning and make use of online courses, tutorials and digital libraries."
+            },
+            "fr": {
+                "nombre": "Apprentissage autonome avec des ressources en ligne",
+                "categoria": "Éducation numérique",
+                "descripcion": "Organisez votre apprentissage et profitez des cours, tutoriels et bibliothèques numériques en ligne."
+            }
+        }
     }
 ]

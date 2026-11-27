@@ -2,7 +2,7 @@
 {
     "menu": {
         "inicio": "Inicio",
-        "cursos": "Cursos",
+        "cursos": "Habilidades Básicas",
         "nosotros": "Nosotros",
         "transparencia": "Transparencia",
         "contacto": "Contacto",
@@ -27,8 +27,8 @@
     },
     "cursos": {
         "subtitulo": "APRENDE A TU RITMO",
-        "titulo": "Nuestros cursos",
-        "descripcion": "Explora nuestros cursos y desarrolla nuevas habilidades digitales desde cero.",
+        "titulo": "Conceptos Básicos",
+        "descripcion": "Explora estos cursos esenciales y desarrolla nuevas habilidades digitales desde cero.",
         "curso1Titulo": "Computación básica",
         "curso1Descripcion": "Aprende a utilizar una computadora, manejar el teclado y organizar archivos.",
         "curso2Titulo": "Uso de Internet",
@@ -37,7 +37,8 @@
         "curso3Descripcion": "Aprende a utilizar el correo electrónico y otras herramientas digitales.",
         "curso4Titulo": "Seguridad digital",
         "curso4Descripcion": "Conoce cómo proteger tus datos personales y navegar de manera segura.",
-        "consultar": "Consultar sobre este curso"
+        "consultar": "Consultar sobre este curso",
+        "explorar": "Explorar nuestros cursos"
     },
     "nosotros": {
         "subtitulo": "CONOCE NUESTRA PLATAFORMA",
@@ -109,6 +110,37 @@
     },
     "general": {
         "saltarContenido": "Saltar al contenido principal"
-    }
+    },
+    "reservarCursos": {
+        "titulo": "Explora nuestros cursos",
+        "descripcion": "Encuentra cursos digitales para seguir aprendiendo.",
+        "buscar": "Buscar cursos...",
+        "sinResultados": "No se encontraron coincidencias",
+        "cargando": "Cargando cursos...",
+        "error": "No se pudieron cargar los cursos.",
+        "categoria": "Categoría",
+        "stock": "Disponibles",
+        "precio": "Precio mensual",
+        "verDetalles": "Ver detalles",
+        "carrito": "Tu carrito",
+        "carritoVacio": "Todavía no has agregado cursos.",
+        "agregar": "Agregar al carrito",
+        "seguirExplorando": "Seguir explorando",
+        "cantidad": "Cantidad",
+        "disminuir": "Disminuir cantidad",
+        "aumentar": "Aumentar cantidad",
+        "eliminar": "Eliminar",
+        "total": "Total",
+        "pagar": "Pagar ahora",
+        "invitado": "Continuar como invitado",
+        "sinStock": "No hay suficiente stock disponible.",
+        "agregado": "Curso agregado al carrito.",
+        "pagoSimulado": "¡Compra simulada correctamente!",
+        "confirmacion": "Tu pedido se ha registrado correctamente.",
+        "fecha": "Fecha",
+        "hora": "Hora",
+        "cerrar": "Cerrar",
+        "detalle": "Detalles del curso"
+}
 }
 

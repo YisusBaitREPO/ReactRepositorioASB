@@ -103,10 +103,12 @@ export default function Cursos() {
                         </article>
 
                     ))}
+                    <div className="boton-explorar-contenedor">
+                        <Link to="/reservar-cursos" className="boton-explorar">
+                        {textos.cursos.explorar}
+                        </Link>
+                    </div>
 
-                    <Link to="/reservar-cursos" className="boton-explorar">Explorar más cursos</Link>
-
-                    <button> Explorar mas cursos</button>
 
                 </div>
 

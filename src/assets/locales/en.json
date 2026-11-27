@@ -2,7 +2,7 @@
 {
     "menu": {
         "inicio": "Home",
-        "cursos": "Courses",
+        "cursos": "Basic Skills",
         "nosotros": "About us",
         "transparencia": "Transparency",
         "contacto": "Contact",
@@ -37,7 +37,8 @@
         "curso3Descripcion": "Learn how to use email and other digital tools.",
         "curso4Titulo": "Digital security",
         "curso4Descripcion": "Learn how to protect your personal data and browse safely.",
-        "consultar": "Ask about this course"
+        "consultar": "Ask about this course",
+        "explorar": "Explore our courses"
     },
     "nosotros": {
         "subtitulo": "GET TO KNOW OUR PLATFORM",
@@ -109,5 +110,36 @@
     },
     "general": {
         "saltarContenido": "Skip to main content"
-    }
-}
+    },
+    "reservarCursos": {
+        "titulo": "Explore our courses",
+        "descripcion": "Find digital courses and keep learning.",
+        "buscar": "Search courses...",
+        "sinResultados": "No matches found",
+        "cargando": "Loading courses...",
+        "error": "Courses could not be loaded.",
+        "categoria": "Category",
+        "stock": "Available",
+        "precio": "Monthly price",
+        "verDetalles": "View details",
+        "carrito": "Your cart",
+        "carritoVacio": "You haven't added any courses yet.",
+        "agregar": "Add to cart",
+        "seguirExplorando": "Continue exploring",
+        "cantidad": "Quantity",
+        "disminuir": "Decrease quantity",
+        "aumentar": "Increase quantity",
+        "eliminar": "Remove",
+        "total": "Total",
+        "pagar": "Pay now",
+        "invitado": "Continue as guest",
+        "sinStock": "There isn't enough stock available.",
+        "agregado": "Course added to cart.",
+        "pagoSimulado": "Simulated purchase completed!",
+        "confirmacion": "Your order has been registered successfully.",
+        "fecha": "Date",
+        "hora": "Time",
+        "cerrar": "Close",
+        "detalle": "Course details"
+}       
+}       
